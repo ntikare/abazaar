@@ -3,11 +3,19 @@
   define('HTTP_CATALOG_SERVER', 'http://nawa.ibhupi.com');
   define('HTTPS_CATALOG_SERVER', 'http://nawa.ibhupi.com');
   define('ENABLE_SSL_CATALOG', 'false');
+<<<<<<< HEAD
   define('DIR_FS_DOCUMENT_ROOT', '/var/www/html/abazaar/catalog/');
   define('DIR_WS_ADMIN', '/abazaar/catalog/admin/');
   define('DIR_FS_ADMIN', '/var/www/html/abazaar/catalog/admin/');
   define('DIR_WS_CATALOG', '/abazaar/catalog/');
   define('DIR_FS_CATALOG', '/var/www/html/abazaar/catalog/');
+=======
+  define('DIR_FS_DOCUMENT_ROOT', '/tech/w-php/shop/catalog/');
+  define('DIR_WS_ADMIN', '/abazaar/catalog/admin/');
+  define('DIR_FS_ADMIN', '/tech/w-php/shop/catalog/admin/');
+  define('DIR_WS_CATALOG', '/abazaar/catalog/');
+  define('DIR_FS_CATALOG', '/tech/w-php/shop/catalog/');
+>>>>>>> a75c64512abf906d50e62642b3612c66977718e8
   define('DIR_WS_IMAGES', 'images/');
   define('DIR_WS_ICONS', DIR_WS_IMAGES . 'icons/');
   define('DIR_WS_CATALOG_IMAGES', DIR_WS_CATALOG . 'images/');
@@ -31,5 +39,5 @@
   define('DB_DATABASE', 'asianbazaar');
   define('USE_PCONNECT', 'false');
   define('STORE_SESSIONS', 'mysql');
-  define('CFG_TIME_ZONE', 'UTC');
+  define('CFG_TIME_ZONE', 'Asia/Tokyo');
 ?>
