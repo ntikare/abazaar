@@ -3,11 +3,11 @@
   define('HTTP_CATALOG_SERVER', 'http://localhost');
   define('HTTPS_CATALOG_SERVER', 'http://localhost');
   define('ENABLE_SSL_CATALOG', 'false');
-  define('DIR_FS_DOCUMENT_ROOT', 'C:/wamp/www/shop/catalog/');
-  define('DIR_WS_ADMIN', '/shop/catalog/admin/');
-  define('DIR_FS_ADMIN', 'C:/wamp/www/shop/catalog/admin/');
-  define('DIR_WS_CATALOG', '/shop/catalog/');
-  define('DIR_FS_CATALOG', 'C:/wamp/www/shop/catalog/');
+  define('DIR_FS_DOCUMENT_ROOT', '/tech/w-php/shop/catalog/');
+  define('DIR_WS_ADMIN', '/abazaar/catalog/admin/');
+  define('DIR_FS_ADMIN', '/tech/w-php/shop/catalog/admin/');
+  define('DIR_WS_CATALOG', '/abazaar/catalog/');
+  define('DIR_FS_CATALOG', '/tech/w-php/shop/catalog/');
   define('DIR_WS_IMAGES', 'images/');
   define('DIR_WS_ICONS', DIR_WS_IMAGES . 'icons/');
   define('DIR_WS_CATALOG_IMAGES', DIR_WS_CATALOG . 'images/');
@@ -31,5 +31,5 @@
   define('DB_DATABASE', 'asianbazaar');
   define('USE_PCONNECT', 'false');
   define('STORE_SESSIONS', 'mysql');
-  define('CFG_TIME_ZONE', 'UTC');
+  define('CFG_TIME_ZONE', 'Asia/Tokyo');
 ?>
