@@ -27,7 +27,7 @@
 
   define('DB_SERVER', 'localhost');
   define('DB_SERVER_USERNAME', 'root');
-  define('DB_SERVER_PASSWORD', 'nnt123');
+  define('DB_SERVER_PASSWORD', 'savvanavu');
   define('DB_DATABASE', 'asianbazaar');
   define('USE_PCONNECT', 'false');
   define('STORE_SESSIONS', 'mysql');
