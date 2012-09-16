@@ -17,11 +17,7 @@
   define('DIR_WS_LANGUAGES', DIR_WS_INCLUDES . 'languages/');
 
   define('DIR_WS_DOWNLOAD_PUBLIC', 'pub/');
-<<<<<<< HEAD
   define('DIR_FS_CATALOG', '/var/www/html/abazaar/catalog/');
-=======
-  define('DIR_FS_CATALOG', '/tech/w-php/shop/catalog/');
->>>>>>> a75c64512abf906d50e62642b3612c66977718e8
   define('DIR_FS_DOWNLOAD', DIR_FS_CATALOG . 'download/');
   define('DIR_FS_DOWNLOAD_PUBLIC', DIR_FS_CATALOG . 'pub/');
 
