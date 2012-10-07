@@ -10,21 +10,21 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Checkout');
-define('NAVBAR_TITLE_2', 'Success');
+define('NAVBAR_TITLE_1', 'お支払情報');
+define('NAVBAR_TITLE_2', '成功');
 
-define('HEADING_TITLE', 'Your Order Has Been Processed!');
+define('HEADING_TITLE', 'ご注文は処理されました！');
 
-define('TEXT_SUCCESS', 'Your order has been successfully processed! Your products will arrive at their destination within 2-5 working days.');
-define('TEXT_NOTIFY_PRODUCTS', 'Please notify me of updates to the products I have selected below:');
-define('TEXT_SEE_ORDERS', 'You can view your order history by going to the <a href="' . tep_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">\'My Account\'</a> page and by clicking on <a href="' . tep_href_link(FILENAME_ACCOUNT_HISTORY, '', 'SSL') . '">\'History\'</a>.');
-define('TEXT_CONTACT_STORE_OWNER', 'Please direct any questions you have to the <a href="' . tep_href_link(FILENAME_CONTACT_US) . '">store owner</a>.');
-define('TEXT_THANKS_FOR_SHOPPING', 'Thanks for shopping with us online!');
+define('TEXT_SUCCESS', 'ご注文が正常に処理されました！今回のご注文内容のメールをお送りいたしましたのでご確認ください。');
+define('TEXT_NOTIFY_PRODUCTS', '下に選択した商品の最新情報をお知らせいたします。:');
+define('TEXT_SEE_ORDERS', 'ここで <a href="' . tep_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">\'会員登録情報\'</a> を表示できます。ご注文の履歴は <a href="' . tep_href_link(FILENAME_ACCOUNT_HISTORY, '', 'SSL') . '">\'注文履歴\'</a>で表示できます。');
+define('TEXT_CONTACT_STORE_OWNER', '質問は <a href="' . tep_href_link(FILENAME_CONTACT_US) . '">こちらまで</a>.');
+define('TEXT_THANKS_FOR_SHOPPING', 'オンラインで私達と買物をしてくれてありがとう！');
 
-define('TABLE_HEADING_COMMENTS', 'Enter a comment for the order processed');
+define('TABLE_HEADING_COMMENTS', '今回のご注文について何かあればコメントを入力してください');
 
-define('TABLE_HEADING_DOWNLOAD_DATE', 'Expiry date: ');
-define('TABLE_HEADING_DOWNLOAD_COUNT', ' downloads remaining');
-define('HEADING_DOWNLOAD', 'Download your products here:');
-define('FOOTER_DOWNLOAD', 'You can also download your products at a later time at \'%s\'');
+define('TABLE_HEADING_DOWNLOAD_DATE', '有効期限: ');
+define('TABLE_HEADING_DOWNLOAD_COUNT', ' 残りのダウンロード');
+define('HEADING_DOWNLOAD', 'ここにあなたの製品をダウンロード:');
+define('FOOTER_DOWNLOAD', 'また、あとで製品をダウンロードすることができます。 \'%s\'');
 ?>

@@ -10,19 +10,19 @@
   Released under the GNU General Public License
 */
 
-define('EMAIL_TEXT_SUBJECT', 'Order Process');
-define('EMAIL_TEXT_ORDER_NUMBER', 'Order Number:');
-define('EMAIL_TEXT_INVOICE_URL', 'Detailed Invoice:');
-define('EMAIL_TEXT_DATE_ORDERED', 'Date Ordered:');
-define('EMAIL_TEXT_PRODUCTS', 'Products');
-define('EMAIL_TEXT_SUBTOTAL', 'Sub-Total:');
-define('EMAIL_TEXT_TAX', 'Tax:        ');
-define('EMAIL_TEXT_SHIPPING', 'Shipping: ');
-define('EMAIL_TEXT_TOTAL', 'Total:    ');
-define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Delivery Address');
-define('EMAIL_TEXT_BILLING_ADDRESS', 'Billing Address');
-define('EMAIL_TEXT_PAYMENT_METHOD', 'Payment Method');
+define('EMAIL_TEXT_SUBJECT', 'ご注文ありがとうございます。');
+define('EMAIL_TEXT_ORDER_NUMBER', '注文番号:');
+define('EMAIL_TEXT_INVOICE_URL', 'ご注文情報:');
+define('EMAIL_TEXT_DATE_ORDERED', '注文日:');
+define('EMAIL_TEXT_PRODUCTS', '商品名');
+define('EMAIL_TEXT_SUBTOTAL', '小計:');
+define('EMAIL_TEXT_TAX', '消費税:        ');
+define('EMAIL_TEXT_SHIPPING', '送料: ');
+define('EMAIL_TEXT_TOTAL', '合計:    ');
+define('EMAIL_TEXT_DELIVERY_ADDRESS', '発送先住所');
+define('EMAIL_TEXT_BILLING_ADDRESS', '請求先住所');
+define('EMAIL_TEXT_PAYMENT_METHOD', '支払方法');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
-define('TEXT_EMAIL_VIA', 'via');
+define('TEXT_EMAIL_VIA', '経由');
 ?>

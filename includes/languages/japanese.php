@@ -50,21 +50,21 @@ define('CHARSET', 'utf-8');
 define('TITLE', STORE_NAME);
 
 // header text in includes/header.php
-define('HEADER_TITLE_CREATE_ACCOUNT', 'Create an Account');
-define('HEADER_TITLE_MY_ACCOUNT', 'My Account');
-define('HEADER_TITLE_CART_CONTENTS', 'Cart Contents');
-define('HEADER_TITLE_CHECKOUT', 'Checkout');
+define('HEADER_TITLE_CREATE_ACCOUNT', 'アカウント作成');
+define('HEADER_TITLE_MY_ACCOUNT', 'アカウント');
+define('HEADER_TITLE_CART_CONTENTS', '買い物カート');
+define('HEADER_TITLE_CHECKOUT', '注文確定');
 define('HEADER_TITLE_TOP', 'トプ');
-define('HEADER_TITLE_CATALOG', 'Catalog');
-define('HEADER_TITLE_LOGOFF', 'Log Off');
-define('HEADER_TITLE_LOGIN', 'Log In');
+define('HEADER_TITLE_CATALOG', '商品リスト');
+define('HEADER_TITLE_LOGOFF', 'ログオフ');
+define('HEADER_TITLE_LOGIN', 'ログイン');
 
 // footer text in includes/footer.php
 define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');
 
 // text for gender
-define('MALE', 'Male');
-define('FEMALE', 'Female');
+define('MALE', '男');
+define('FEMALE', '女');
 define('MALE_ADDRESS', 'Mr.');
 define('FEMALE_ADDRESS', 'Ms.');
 
@@ -72,17 +72,17 @@ define('FEMALE_ADDRESS', 'Ms.');
 define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
 
 // checkout procedure text
-define('CHECKOUT_BAR_DELIVERY', 'Delivery Information');
-define('CHECKOUT_BAR_PAYMENT', 'Payment Information');
-define('CHECKOUT_BAR_CONFIRMATION', 'Confirmation');
-define('CHECKOUT_BAR_FINISHED', 'Finished!');
+define('CHECKOUT_BAR_DELIVERY', '配達情報');
+define('CHECKOUT_BAR_PAYMENT', '支払い情報');
+define('CHECKOUT_BAR_CONFIRMATION', '次へ');
+define('CHECKOUT_BAR_FINISHED', '完了');
 
 // pull down default text
-define('PULL_DOWN_DEFAULT', 'Please Select');
+define('PULL_DOWN_DEFAULT', '選んで');
 define('TYPE_BELOW', 'Type Below');
 
 // javascript messages
-define('JS_ERROR', 'Errors have occured during the process of your form.\n\nPlease make the following corrections:\n\n');
+define('JS_ERROR', 'フォームの情報に誤りがあります。.\n\n下記をご確認を上再入力お願いを申し上げます。:\n\n');
 
 define('JS_REVIEW_TEXT', '* The \'Review Text\' must have at least ' . REVIEW_TEXT_MIN_LENGTH . ' characters.\n');
 define('JS_REVIEW_RATING', '* You must rate the product for your review.\n');

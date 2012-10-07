@@ -10,18 +10,18 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Create an Account');
+define('NAVBAR_TITLE', 'アカウント作成');
 
-define('HEADING_TITLE', 'My Account Information');
+define('HEADING_TITLE', 'アカウントの新規作成');
 
-define('TEXT_ORIGIN_LOGIN', '<font color="#FF0000"><small><strong>NOTE:</strong></small></font> If you already have an account with us, please login at the <a href="%s"><u>login page</u></a>.');
+define('TEXT_ORIGIN_LOGIN', '<font color="#FF0000"><small><strong>NOTE:</strong></small></font> すでに会員登録をしている場合 <a href="%s"><u>こちら</u></a>からログインしてください。.');
 
-define('EMAIL_SUBJECT', 'Welcome to ' . STORE_NAME);
-define('EMAIL_GREET_MR', 'Dear Mr. %s,' . "\n\n");
-define('EMAIL_GREET_MS', 'Dear Ms. %s,' . "\n\n");
-define('EMAIL_GREET_NONE', 'Dear %s' . "\n\n");
+define('EMAIL_SUBJECT', 'ようこそ ' . STORE_NAME. ' へ' );
+define('EMAIL_GREET_MR', '%s'. '様' . "\n\n");
+define('EMAIL_GREET_MS', '%s'. '様' . "\n\n");
+define('EMAIL_GREET_NONE', 'Dear %s' . "\n\n". '様');
 define('EMAIL_WELCOME', 'We welcome you to <strong>' . STORE_NAME . '</strong>.' . "\n\n");
-define('EMAIL_TEXT', 'You can now take part in the <strong>various services</strong> we have to offer you. Some of these services include:' . "\n\n" . '<li><strong>Permanent Cart</strong> - Any products added to your online cart remain there until you remove them, or check them out.' . "\n" . '<li><strong>Address Book</strong> - We can now deliver your products to another address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.' . "\n" . '<li><strong>Order History</strong> - View your history of purchases that you have made with us.' . "\n" . '<li><strong>Products Reviews</strong> - Share your opinions on products with our other customers.' . "\n\n");
-define('EMAIL_CONTACT', 'For help with any of our online services, please email the store-owner: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
-define('EMAIL_WARNING', '<strong>Note:</strong> This email address was given to us by one of our customers. If you did not signup to be a member, please send an email to ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n");
+define('EMAIL_TEXT', 'あなたは、当店における <strong>さまざまなサービス</strong> を利用できます。. それには以下の内容を含みます。:' . "\n\n" . '<li><strong>買い物カゴ</strong> - あなたがそれらを削除するか、またはそれらをチェックアウトするまで、あなたのオンラインショッピングカートに追加されたすべての製品が残っています。' . "\n" . '<li><strong>アドレス帳</strong> -我々は今、マーケット以外の別のアドレスにあなたの製品をお届けすることができます！これは、誕生日などに直接プレゼントを送ることに最適です。' . "\n" . '<li><strong>注文履歴</strong> - あなたは私たちと行った買い物の履歴を表示します。' . "\n" . '<li><strong>商品レビュー</strong> - 当社の他のお客様との商品に関するあなたの意見を共有します。' . "\n\n");
+define('EMAIL_CONTACT', '当店ご利用についてご不明の点がございましたらお問い合わせください。: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
+define('EMAIL_WARNING', '<strong>Note:</strong> このメールアドレスは、お客様の意思によって私たちに与えられた。 退会ご希望の場合は、 ' . STORE_OWNER_EMAIL_ADDRESS . 'までご連絡ください。' . "\n");
 ?>

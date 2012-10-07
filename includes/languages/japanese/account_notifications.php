@@ -10,20 +10,21 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Product Notifications');
+define('NAVBAR_TITLE_1', '会員情報');
+define('NAVBAR_TITLE_2', 'お気に入りの商品リスト
+');
 
-define('HEADING_TITLE', 'Product Notifications');
+define('HEADING_TITLE', 'お気に入りの商品');
 
-define('MY_NOTIFICATIONS_TITLE', 'My Product Notifications');
-define('MY_NOTIFICATIONS_DESCRIPTION', 'The product notification list allows you to stay up to date on products you find of interest.<br /><br />To be up to date on all product changes, select <strong>Global Product Notifications</strong>.');
+define('MY_NOTIFICATIONS_TITLE', 'お気に入りの商品');
+define('MY_NOTIFICATIONS_DESCRIPTION', 'お気に入り商品に登録すれば、あなたが興味のある商品についての情報が入り次第、情報をお届けいたします。<br /><br />すべての商品の最新情報を入手したい方は <strong>すべての商品情報</strong>を選択してください。');
 
-define('GLOBAL_NOTIFICATIONS_TITLE', 'Global Product Notifications');
-define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Recieve notifications on all available products.');
+define('GLOBAL_NOTIFICATIONS_TITLE', 'すべての商品情報');
+define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'すべての商品情報を受け取る。');
 
-define('NOTIFICATIONS_TITLE', 'Product Notifications');
-define('NOTIFICATIONS_DESCRIPTION', 'To remove a product notification, clear the products checkbox and click on Continue.');
-define('NOTIFICATIONS_NON_EXISTING', 'There are currently no products marked to be notified on.<br /><br />To add products to your product notification list, click on the notification link available on the detailed product information page.');
+define('NOTIFICATIONS_TITLE', 'お気に入り商品リスト');
+define('NOTIFICATIONS_DESCRIPTION', 'お気に入り商品情報を削除するには、チェックボックスを空欄にし、[次へ]をクリックします。');
+define('NOTIFICATIONS_NON_EXISTING', 'お気に入り商品情報は現在ありません。<br /><br />お気に入り商品情報を追加するには、商品情報のページで登録をしてください。');
 
-define('SUCCESS_NOTIFICATIONS_UPDATED', 'Your product notifications have been successfully updated.');
+define('SUCCESS_NOTIFICATIONS_UPDATED', 'お気に入り商品情報が更新されました。');
 ?>

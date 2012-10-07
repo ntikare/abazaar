@@ -10,22 +10,22 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'My Account');
-define('HEADING_TITLE', 'My Account Information');
+define('NAVBAR_TITLE', 'アカウント');
+define('HEADING_TITLE', '会員登録情報');
 
-define('OVERVIEW_TITLE', 'Overview');
-define('OVERVIEW_SHOW_ALL_ORDERS', '(show all orders)');
-define('OVERVIEW_PREVIOUS_ORDERS', 'Previous Orders');
+define('OVERVIEW_TITLE', '概要');
+define('OVERVIEW_SHOW_ALL_ORDERS', '(すべての注文を表示する)');
+define('OVERVIEW_PREVIOUS_ORDERS', '以前の注文');
 
-define('MY_ACCOUNT_TITLE', 'My Account');
-define('MY_ACCOUNT_INFORMATION', 'View or change my account information.');
-define('MY_ACCOUNT_ADDRESS_BOOK', 'View or change entries in my address book.');
-define('MY_ACCOUNT_PASSWORD', 'Change my account password.');
+define('MY_ACCOUNT_TITLE', 'アカウント');
+define('MY_ACCOUNT_INFORMATION', '会員登録情報の確認・変更');
+define('MY_ACCOUNT_ADDRESS_BOOK', 'アドレス帳の確認・変更');
+define('MY_ACCOUNT_PASSWORD', 'パスワードを変更する');
 
-define('MY_ORDERS_TITLE', 'My Orders');
-define('MY_ORDERS_VIEW', 'View the orders I have made.');
+define('MY_ORDERS_TITLE', '買い物かご');
+define('MY_ORDERS_VIEW', '買い物かごの中身を見る');
 
-define('EMAIL_NOTIFICATIONS_TITLE', 'E-Mail Notifications');
-define('EMAIL_NOTIFICATIONS_NEWSLETTERS', 'Subscribe or unsubscribe from newsletters.');
-define('EMAIL_NOTIFICATIONS_PRODUCTS', 'View or change my product notification list.');
+define('EMAIL_NOTIFICATIONS_TITLE', 'Eメールの通知');
+define('EMAIL_NOTIFICATIONS_NEWSLETTERS', 'メールマガジンの登録・解除');
+define('EMAIL_NOTIFICATIONS_PRODUCTS', 'お気に入り商品リストの登録・変更');
 ?>

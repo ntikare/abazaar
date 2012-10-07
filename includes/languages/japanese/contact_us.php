@@ -10,14 +10,14 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Contact Us');
-define('NAVBAR_TITLE', 'Contact Us');
-define('TEXT_SUCCESS', 'Your enquiry has been successfully sent to the Store Owner.');
+define('HEADING_TITLE', 'お問い合わせ');
+define('NAVBAR_TITLE', 'お問い合わせ');
+define('TEXT_SUCCESS', 'あなたの照会は正常に店のオーナーに送信されました。');
 define('EMAIL_SUBJECT', 'Enquiry from ' . STORE_NAME);
 
-define('ENTRY_NAME', 'Full Name:');
-define('ENTRY_EMAIL', 'E-Mail Address:');
-define('ENTRY_ENQUIRY', 'Enquiry:');
+define('ENTRY_NAME', 'お名前:');
+define('ENTRY_EMAIL', 'E-Mail アドレス:');
+define('ENTRY_ENQUIRY', 'お問い合わせ内容:');
 
-define('ERROR_ACTION_RECORDER', 'Error: An enquiry has already been sent. Please try again in %s minutes.');
+define('ERROR_ACTION_RECORDER', 'Error: お問い合わせが既に送信されています。  %s 分後にもう一度やり直してください。');
 ?>

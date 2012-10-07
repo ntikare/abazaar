@@ -10,13 +10,13 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Change Password');
+define('NAVBAR_TITLE_1', '会員情報');
+define('NAVBAR_TITLE_2', 'パスワードの変更');
 
-define('HEADING_TITLE', 'My Password');
+define('HEADING_TITLE', 'パスワードの変更');
 
-define('MY_PASSWORD_TITLE', 'My Password');
+define('MY_PASSWORD_TITLE', 'パスワードの変更');
 
-define('SUCCESS_PASSWORD_UPDATED', 'Your password has been successfully updated.');
-define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', 'Your Current Password did not match the password in our records. Please try again.');
+define('SUCCESS_PASSWORD_UPDATED', 'パスワードの更新に成功しました。');
+define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', '現在のパスワードが一致しませんでした。もう一度やり直してくださいね☆');
 ?>

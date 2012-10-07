@@ -10,12 +10,12 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Edit Account');
+define('NAVBAR_TITLE_1', '会員情報');
+define('NAVBAR_TITLE_2', '会員情報の更新');
 
-define('HEADING_TITLE', 'My Account Information');
+define('HEADING_TITLE', '会員情報');
 
-define('MY_ACCOUNT_TITLE', 'My Account');
+define('MY_ACCOUNT_TITLE', '会員情報');
 
-define('SUCCESS_ACCOUNT_UPDATED', 'Your account has been successfully updated.');
+define('SUCCESS_ACCOUNT_UPDATED', '会員情報が更新されました。');
 ?>

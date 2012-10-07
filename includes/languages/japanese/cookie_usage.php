@@ -10,11 +10,11 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Cookie Usage');
-define('HEADING_TITLE', 'Cookie Usage');
+define('NAVBAR_TITLE', 'クッキーの使用方法');
+define('HEADING_TITLE', 'クッキーの使用方法');
 
-define('TEXT_INFORMATION', 'We have detected that your browser does not support cookies, or has set cookies to be disabled.<br /><br />To continue shopping online, we encourage you to enable cookies on your browser.<br /><br />For <strong>Internet Explorer</strong> browsers, please follow these instructions:<br /><ol><li>Click on the Tools menubar, and select Internet Options</li><li>Select the Security tab, and reset the security level to Medium</li></ol>We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.');
+define('TEXT_INFORMATION', '我々は、あなたのブラウザがCookieをサポートしていないことが検出された場合、または無効にするためにクッキーを設定しています。<br /><br />オンラインショッピングを続けるために、我々はあなたがお使いのブラウザのクッキーを有効にすることをお勧めします。<br /><br />たとえば <strong>Internet Explorer</strong> browsersの場合、これらの指示に従ってください:<br /><ol><li>[ツール]メニューバーをクリックし、[インターネットオプション]を選択します</li><li>[セキュリティ]タブを選択し、[セキュリティレベル]を[中]にセット</li></ol>我々は、あなたの利益のためにセキュリティのこの測定値を採取し、不便が生じている場合は前もって謝罪してきた。<br /><br />この要件に関連する質問があれば店のオーナーに連絡してください、またはオフラインで製品を購入して続行します。');
 
-define('BOX_INFORMATION_HEADING', 'Cookie Privacy and Security');
-define('BOX_INFORMATION', 'Cookies must be enabled to purchase online on this store to embrace privacy and security related issues regarding your visit to this site.<br /><br />By enabling cookie support on your browser, the communication between you and this site is strengthened to be certain it is you who are making transactions on your own behalf, and to prevent leakage of your privacy information.');
+define('BOX_INFORMATION_HEADING', 'クッキー（Cookie）のプライバシーとセキュリティ');
+define('BOX_INFORMATION', 'クッキーはプライバシーやこのサイトへの訪問に関するセキュリティ関連の問題を包含するこのストアでオンライン購入することを有効にする必要があります。<br /><br />お使いのブラウザのクッキー（Cookie）の設定を有効にすることで、あなたとこのサイトとの間の通信は、それはあなた自身に代わってトランザクションを確実にし、そしてあなたの個人情報の漏洩を防止するために強化されている。');
 ?>

@@ -12,10 +12,6 @@
 
   require('includes/application_top.php');
 
-  if (!isset($HTTP_GET_VARS['products_id'])) {
-    tep_redirect(tep_href_link(FILENAME_DEFAULT));
-  }
-
   require(DIR_WS_LANGUAGES . $language . '/' . FILENAME_PRODUCT_INFO);
 
   $product_check_query = tep_db_query("select count(*) as total from " . TABLE_PRODUCTS . " p, " . TABLE_PRODUCTS_DESCRIPTION . " pd where p.products_status = '1' and p.products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and pd.products_id = p.products_id and pd.language_id = '" . (int)$languages_id . "'");
@@ -86,7 +82,7 @@
           if (tep_not_null($pi['htmlcontent'])) {
             $pi_entry .= '#piGalimg_' . $pi_counter;
           } else {
-            $pi_entry .= tep_href_link(DIR_WS_IMAGES . $pi['image'], '', 'NONSSL', false);
+            $pi_entry .= tep_href_link(DIR_WS_IMAGES . $pi['image']);
           }
 
           $pi_entry .= '" target="_blank" rel="fancybox">' . tep_image(DIR_WS_IMAGES . $pi['image']) . '</a>';
@@ -119,7 +115,7 @@ $('#piGal ul').bxGallery({
 ?>
 
     <div id="piGal" style="float: right;">
-      <?php echo '<a href="' . tep_href_link(DIR_WS_IMAGES . $product_info['products_image'], '', 'NONSSL', false) . '" target="_blank" rel="fancybox">' . tep_image(DIR_WS_IMAGES . $product_info['products_image'], addslashes($product_info['products_name']), null, null, 'hspace="5" vspace="5"') . '</a>'; ?>
+      <?php echo '<a href="' . tep_href_link(DIR_WS_IMAGES . $product_info['products_image']) . '" target="_blank" rel="fancybox">' . tep_image(DIR_WS_IMAGES . $product_info['products_image'], addslashes($product_info['products_name']), 300, 300, 'hspace="5" vspace="5"') . '</a>'; ?>
     </div>
 
 <?php
@@ -190,7 +186,7 @@ $("#piGal a[rel^='fancybox']").fancybox({
   </div>
 
 <?php
-    $reviews_query = tep_db_query("select count(*) as count from " . TABLE_REVIEWS . " r, " . TABLE_REVIEWS_DESCRIPTION . " rd where r.products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and r.reviews_id = rd.reviews_id and rd.languages_id = '" . (int)$languages_id . "' and reviews_status = 1");
+    $reviews_query = tep_db_query("select count(*) as count from " . TABLE_REVIEWS . " where products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and reviews_status = 1");
     $reviews = tep_db_fetch_array($reviews_query);
 ?>
 

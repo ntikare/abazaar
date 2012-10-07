@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Conditions of Use');
-define('HEADING_TITLE', 'Conditions of Use');
+define('NAVBAR_TITLE', 'ご利用規約');
+define('HEADING_TITLE', 'ご利用規約');
 
-define('TEXT_INFORMATION', 'Put here your Conditions of Use information.');
+define('TEXT_INFORMATION', 'ご利用規約の情報ここに置いた。');
 ?>
