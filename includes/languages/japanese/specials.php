@@ -10,6 +10,6 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Specials');
-define('HEADING_TITLE', 'Get Them While They\'re Hot!');
+define('NAVBAR_TITLE', 'スペシャル');
+define('HEADING_TITLE', '彼らはホットしている間、それらを入手！');
 ?>

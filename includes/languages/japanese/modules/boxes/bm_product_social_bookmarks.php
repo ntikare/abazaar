@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_TITLE', 'Product Social Bookmarks');
-  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_DESCRIPTION', 'Show social bookmarks on the product information page');
-  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_BOX_TITLE', 'Share Product');
+  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_TITLE', '製品のソーシャルブックマーク');
+  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_DESCRIPTION', '製品情報ページにソーシャルブックマークを表示');
+  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_BOX_TITLE', 'シェア製品');
 ?>

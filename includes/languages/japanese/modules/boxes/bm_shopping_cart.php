@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_SHOPPING_CART_TITLE', 'Shopping Cart');
-  define('MODULE_BOXES_SHOPPING_CART_DESCRIPTION', 'Show shopping cart contents');
-  define('MODULE_BOXES_SHOPPING_CART_BOX_TITLE', 'Shopping Cart');
-  define('MODULE_BOXES_SHOPPING_CART_BOX_CART_EMPTY', '0 items');
+  define('MODULE_BOXES_SHOPPING_CART_TITLE', '買い物かご');
+  define('MODULE_BOXES_SHOPPING_CART_DESCRIPTION', '買い物かごの中身を表示');
+  define('MODULE_BOXES_SHOPPING_CART_BOX_TITLE', '買い物かご');
+  define('MODULE_BOXES_SHOPPING_CART_BOX_CART_EMPTY', '0 アイテム');
 ?>

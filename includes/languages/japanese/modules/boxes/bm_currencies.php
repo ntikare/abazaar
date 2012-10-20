@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_CURRENCIES_TITLE', 'Currencies');
-  define('MODULE_BOXES_CURRENCIES_DESCRIPTION', 'Show available currencies');
-  define('MODULE_BOXES_CURRENCIES_BOX_TITLE', 'Currencies');
+  define('MODULE_BOXES_CURRENCIES_TITLE', '通貨');
+  define('MODULE_BOXES_CURRENCIES_DESCRIPTION', '使用可能通貨の表示');
+  define('MODULE_BOXES_CURRENCIES_BOX_TITLE', '通貨');
 ?>

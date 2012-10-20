@@ -10,11 +10,11 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_INFORMATION_TITLE', 'Information');
-  define('MODULE_BOXES_INFORMATION_DESCRIPTION', 'Show information page links');
-  define('MODULE_BOXES_INFORMATION_BOX_TITLE', 'Information');
-  define('MODULE_BOXES_INFORMATION_BOX_PRIVACY', 'Privacy Notice');
-  define('MODULE_BOXES_INFORMATION_BOX_CONDITIONS', 'Conditions of Use');
-  define('MODULE_BOXES_INFORMATION_BOX_SHIPPING', 'Shipping &amp; Returns');
-  define('MODULE_BOXES_INFORMATION_BOX_CONTACT', 'Contact Us');
+  define('MODULE_BOXES_INFORMATION_TITLE', '情報');
+  define('MODULE_BOXES_INFORMATION_DESCRIPTION', '情報ページへのリンクを表示');
+  define('MODULE_BOXES_INFORMATION_BOX_TITLE', '情報');
+  define('MODULE_BOXES_INFORMATION_BOX_PRIVACY', 'プライバシーについて');
+  define('MODULE_BOXES_INFORMATION_BOX_CONDITIONS', '利用条件');
+  define('MODULE_BOXES_INFORMATION_BOX_SHIPPING', '配送と返品について');
+  define('MODULE_BOXES_INFORMATION_BOX_CONTACT', 'お問い合わせ');
 ?>

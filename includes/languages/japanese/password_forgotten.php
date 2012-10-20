@@ -10,19 +10,19 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Login');
-define('NAVBAR_TITLE_2', 'Password Forgotten');
+define('NAVBAR_TITLE_1', 'ログイン');
+define('NAVBAR_TITLE_2', 'パスワードを忘れました');
 
-define('HEADING_TITLE', 'I\'ve Forgotten My Password!');
+define('HEADING_TITLE', '私はパスワードを忘れました!');
 
-define('TEXT_MAIN', 'If you\'ve forgotten your password, enter your e-mail address below and we\'ll send you instructions on how to securely change your password.');
+define('TEXT_MAIN', 'パスワードを忘れた場合は、下記にメールアドレスを入力してください。パスワードを変更する方法をご連絡いたします。');
 
-define('TEXT_PASSWORD_RESET_INITIATED', 'Please check your e-mail for instructions on how to change your password. The instructions contain a link that is valid only for 24 hours or until your password has been updated.');
+define('TEXT_PASSWORD_RESET_INITIATED', 'パスワードを変更する手順については、お使いの電子メールを確認してください。24時間またはパスワードが更新されるまで有効なリンクが含まれています。');
 
-define('TEXT_NO_EMAIL_ADDRESS_FOUND', 'Error: The E-Mail Address was not found in our records, please try again.');
+define('TEXT_NO_EMAIL_ADDRESS_FOUND', 'Error: 登録しているメールアドレスと違うようです。もう一度試してみてください。');
 
-define('EMAIL_PASSWORD_RESET_SUBJECT', STORE_NAME . ' - New Password');
-define('EMAIL_PASSWORD_RESET_BODY', 'A new password has been requested for your account at ' . STORE_NAME . '.' . "\n\n" . 'Please follow this personal link to securely change your password:' . "\n\n" . '%s' . "\n\n" . 'This link will be automatically discarded after 24 hours or after your password has been changed.' . "\n\n" . 'For help with any of our online services, please email the store-owner: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
+define('EMAIL_PASSWORD_RESET_SUBJECT', STORE_NAME . ' - 新しいパスワード');
+define('EMAIL_PASSWORD_RESET_BODY',  STORE_NAME . ' の新しいパスワード。' . "\n\n" . 'あなたのパスワードを変更するには、このリンクをクリックしてください。:' . "\n\n" . '%s' . "\n\n" . 'このリンクは自動的に、24時間後またはパスワードが変更された後に破棄されます。' . "\n\n" . 'オンラインサービスについてご不明の点がございました、電子メールにてご連絡ください。: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
 
-define('ERROR_ACTION_RECORDER', 'Error: A password reset link has already been sent. Please try again in %s minutes.');
+define('ERROR_ACTION_RECORDER', 'Error: パスワードリセットのリンクが既に送信されています。 %s 分後にもう一度やり直してください。');
 ?>

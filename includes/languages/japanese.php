@@ -50,17 +50,17 @@ define('CHARSET', 'utf-8');
 define('TITLE', STORE_NAME);
 
 // header text in includes/header.php
-define('HEADER_TITLE_CREATE_ACCOUNT', 'アカウント作成');
-define('HEADER_TITLE_MY_ACCOUNT', 'アカウント');
-define('HEADER_TITLE_CART_CONTENTS', '買い物カート');
+define('HEADER_TITLE_CREATE_ACCOUNT', '会員情報登録');
+define('HEADER_TITLE_MY_ACCOUNT', '会員情報');
+define('HEADER_TITLE_CART_CONTENTS', '買い物かご');
 define('HEADER_TITLE_CHECKOUT', '注文確定');
-define('HEADER_TITLE_TOP', 'トプ');
+define('HEADER_TITLE_TOP', 'トップ');
 define('HEADER_TITLE_CATALOG', '商品リスト');
-define('HEADER_TITLE_LOGOFF', 'ログオフ');
+define('HEADER_TITLE_LOGOFF', 'ログアウト');
 define('HEADER_TITLE_LOGIN', 'ログイン');
 
 // footer text in includes/footer.php
-define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');
+define('FOOTER_TEXT_REQUESTS_SINCE', 'リクエスト');
 
 // text for gender
 define('MALE', '男');
@@ -73,177 +73,177 @@ define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
 
 // checkout procedure text
 define('CHECKOUT_BAR_DELIVERY', '配達情報');
-define('CHECKOUT_BAR_PAYMENT', '支払い情報');
-define('CHECKOUT_BAR_CONFIRMATION', '次へ');
+define('CHECKOUT_BAR_PAYMENT', '支払情報');
+define('CHECKOUT_BAR_CONFIRMATION', '確認');
 define('CHECKOUT_BAR_FINISHED', '完了');
 
 // pull down default text
-define('PULL_DOWN_DEFAULT', '選んで');
+define('PULL_DOWN_DEFAULT', 'お選びください');
 define('TYPE_BELOW', 'Type Below');
 
 // javascript messages
-define('JS_ERROR', 'フォームの情報に誤りがあります。.\n\n下記をご確認を上再入力お願いを申し上げます。:\n\n');
+define('JS_ERROR', 'フォームの情報に誤りがあります。.\n\n下記をご確認を上、再入力お願いを申し上げます。:\n\n');
 
-define('JS_REVIEW_TEXT', '* The \'Review Text\' must have at least ' . REVIEW_TEXT_MIN_LENGTH . ' characters.\n');
-define('JS_REVIEW_RATING', '* You must rate the product for your review.\n');
+define('JS_REVIEW_TEXT', '*  \'レビューテキスト\' 必須項目 ' . REVIEW_TEXT_MIN_LENGTH . ' 文字.\n');
+define('JS_REVIEW_RATING', '* あなたのレビューのために製品を評価しなければなりません。\n');
 
-define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Please select a payment method for your order.\n');
+define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* ご注文のお支払い方法を選択。\n');
 
-define('JS_ERROR_SUBMITTED', 'This form has already been submitted. Please press Ok and wait for this process to be completed.');
+define('JS_ERROR_SUBMITTED', 'このフォームは、既に送信されました。[OK]を押して、完了するために、このプロセスのためにお待ちください。');
 
-define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Please select a payment method for your order.');
+define('ERROR_NO_PAYMENT_MODULE_SELECTED', '支払方法を選択してください。');
 
-define('CATEGORY_COMPANY', 'Company Details');
-define('CATEGORY_PERSONAL', 'Your Personal Details');
-define('CATEGORY_ADDRESS', 'Your Address');
-define('CATEGORY_CONTACT', 'Your Contact Information');
-define('CATEGORY_OPTIONS', 'Options');
-define('CATEGORY_PASSWORD', 'Your Password');
+define('CATEGORY_COMPANY', '会社情報');
+define('CATEGORY_PERSONAL', 'あなたの個人情報');
+define('CATEGORY_ADDRESS', 'ご住所');
+define('CATEGORY_CONTACT', 'あなたの連絡先情報');
+define('CATEGORY_OPTIONS', 'オプション');
+define('CATEGORY_PASSWORD', 'パスワード');
 
-define('ENTRY_COMPANY', 'Company Name:');
+define('ENTRY_COMPANY', '会社名:');
 define('ENTRY_COMPANY_TEXT', '');
-define('ENTRY_GENDER', 'Gender:');
-define('ENTRY_GENDER_ERROR', 'Please select your Gender.');
+define('ENTRY_GENDER', '性別:');
+define('ENTRY_GENDER_ERROR', '性別を選んでください。');
 define('ENTRY_GENDER_TEXT', '*');
-define('ENTRY_FIRST_NAME', 'First Name:');
-define('ENTRY_FIRST_NAME_ERROR', 'Your First Name must contain a minimum of ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' characters.');
+define('ENTRY_FIRST_NAME', '名:');
+define('ENTRY_FIRST_NAME_ERROR', 'あなたのお名前は少なくとも ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' 文字以上が必要です。');
 define('ENTRY_FIRST_NAME_TEXT', '*');
-define('ENTRY_LAST_NAME', 'Last Name:');
-define('ENTRY_LAST_NAME_ERROR', 'Your Last Name must contain a minimum of ' . ENTRY_LAST_NAME_MIN_LENGTH . ' characters.');
+define('ENTRY_LAST_NAME', '姓:');
+define('ENTRY_LAST_NAME_ERROR', '姓は少なくても ' . ENTRY_LAST_NAME_MIN_LENGTH . ' 文字以上が必要です。');
 define('ENTRY_LAST_NAME_TEXT', '*');
-define('ENTRY_DATE_OF_BIRTH', 'Date of Birth:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Your Date of Birth must be in this format: MM/DD/YYYY (eg 05/21/1970)');
-define('ENTRY_DATE_OF_BIRTH_TEXT', '* (eg. 05/21/1970)');
-define('ENTRY_EMAIL_ADDRESS', 'E-Mail Address:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Your E-Mail Address must contain a minimum of ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' characters.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Your E-Mail Address does not appear to be valid - please make any necessary corrections.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.');
+define('ENTRY_DATE_OF_BIRTH', '生年月日:');
+define('ENTRY_DATE_OF_BIRTH_ERROR', '次の形式で入力してください。（月/日/年）: MM/DD/YYYY (eg 05/21/1970)');
+define('ENTRY_DATE_OF_BIRTH_TEXT', '* (例. 05/21/1970)');
+define('ENTRY_EMAIL_ADDRESS', '電子メールアドレス:');
+define('ENTRY_EMAIL_ADDRESS_ERROR', 'あなたの電子メールアドレスは少なくても ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' 文字以上の入力が必要です。');
+define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', '入力された電子メールアドレスが無効です。必要な修正を行ってください。');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'ご登録の電子メールアドレスでログインするか、別のアドレスでアカウントを作成してください。');
 define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
-define('ENTRY_STREET_ADDRESS', 'Street Address:');
-define('ENTRY_STREET_ADDRESS_ERROR', 'Your Street Address must contain a minimum of ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' characters.');
+define('ENTRY_STREET_ADDRESS', '町名、番地:');
+define('ENTRY_STREET_ADDRESS_ERROR', '町名、番地は少なくても ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' 文字以上の入力が必要です。');
 define('ENTRY_STREET_ADDRESS_TEXT', '*');
-define('ENTRY_SUBURB', 'Suburb:');
+define('ENTRY_SUBURB', '建物名:');
 define('ENTRY_SUBURB_TEXT', '');
-define('ENTRY_POST_CODE', 'Post Code:');
-define('ENTRY_POST_CODE_ERROR', 'Your Post Code must contain a minimum of ' . ENTRY_POSTCODE_MIN_LENGTH . ' characters.');
+define('ENTRY_POST_CODE', '郵便番号:');
+define('ENTRY_POST_CODE_ERROR', '郵便番号は少なくても ' . ENTRY_POSTCODE_MIN_LENGTH . ' 文字以上の入力が必要です。');
 define('ENTRY_POST_CODE_TEXT', '*');
-define('ENTRY_CITY', 'City:');
-define('ENTRY_CITY_ERROR', 'Your City must contain a minimum of ' . ENTRY_CITY_MIN_LENGTH . ' characters.');
+define('ENTRY_CITY', '市区町村:');
+define('ENTRY_CITY_ERROR', '市区町村は少なくても ' . ENTRY_CITY_MIN_LENGTH . ' 文字以上の入力が必要です。');
 define('ENTRY_CITY_TEXT', '*');
-define('ENTRY_STATE', 'State/Province:');
-define('ENTRY_STATE_ERROR', 'Your State must contain a minimum of ' . ENTRY_STATE_MIN_LENGTH . ' characters.');
-define('ENTRY_STATE_ERROR_SELECT', 'Please select a state from the States pull down menu.');
+define('ENTRY_STATE', '都道府県:');
+define('ENTRY_STATE_ERROR', '都道府県は少なくても ' . ENTRY_STATE_MIN_LENGTH . ' 文字以上の入力が必要です。');
+define('ENTRY_STATE_ERROR_SELECT', '米国のプルダウンメニューから状態を選択してください。');
 define('ENTRY_STATE_TEXT', '*');
-define('ENTRY_COUNTRY', 'Country:');
-define('ENTRY_COUNTRY_ERROR', 'You must select a country from the Countries pull down menu.');
+define('ENTRY_COUNTRY', '国:');
+define('ENTRY_COUNTRY_ERROR', 'プルダウンリストから国を選択してください。');
 define('ENTRY_COUNTRY_TEXT', '*');
-define('ENTRY_TELEPHONE_NUMBER', 'Telephone Number:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Your Telephone Number must contain a minimum of ' . ENTRY_TELEPHONE_MIN_LENGTH . ' characters.');
+define('ENTRY_TELEPHONE_NUMBER', '電話番号:');
+define('ENTRY_TELEPHONE_NUMBER_ERROR', '電話番号は少なくても ' . ENTRY_TELEPHONE_MIN_LENGTH . ' 文字以上でないといけませんね。');
 define('ENTRY_TELEPHONE_NUMBER_TEXT', '*');
-define('ENTRY_FAX_NUMBER', 'Fax Number:');
+define('ENTRY_FAX_NUMBER', 'Fax番号:');
 define('ENTRY_FAX_NUMBER_TEXT', '');
-define('ENTRY_NEWSLETTER', 'Newsletter:');
+define('ENTRY_NEWSLETTER', 'ニュースレター:');
 define('ENTRY_NEWSLETTER_TEXT', '');
-define('ENTRY_NEWSLETTER_YES', 'Subscribed');
-define('ENTRY_NEWSLETTER_NO', 'Unsubscribed');
-define('ENTRY_PASSWORD', 'Password:');
-define('ENTRY_PASSWORD_ERROR', 'Your Password must contain a minimum of ' . ENTRY_PASSWORD_MIN_LENGTH . ' characters.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'The Password Confirmation must match your Password.');
+define('ENTRY_NEWSLETTER_YES', '購読');
+define('ENTRY_NEWSLETTER_NO', '購読解除');
+define('ENTRY_PASSWORD', 'パスワード:');
+define('ENTRY_PASSWORD_ERROR', 'パスワードは少なくても ' . ENTRY_PASSWORD_MIN_LENGTH . '文字以上の入力が必要です。');
+define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'パスワードが一致しません。');
 define('ENTRY_PASSWORD_TEXT', '*');
-define('ENTRY_PASSWORD_CONFIRMATION', 'Password Confirmation:');
+define('ENTRY_PASSWORD_CONFIRMATION', 'パスワードの確認:');
 define('ENTRY_PASSWORD_CONFIRMATION_TEXT', '*');
-define('ENTRY_PASSWORD_CURRENT', 'Current Password:');
+define('ENTRY_PASSWORD_CURRENT', '現在のパスワード:');
 define('ENTRY_PASSWORD_CURRENT_TEXT', '*');
-define('ENTRY_PASSWORD_CURRENT_ERROR', 'Your Password must contain a minimum of ' . ENTRY_PASSWORD_MIN_LENGTH . ' characters.');
-define('ENTRY_PASSWORD_NEW', 'New Password:');
+define('ENTRY_PASSWORD_CURRENT_ERROR', 'パスワードは少なくても ' . ENTRY_PASSWORD_MIN_LENGTH . '文字以上の入力が必要です。');
+define('ENTRY_PASSWORD_NEW', '新しいパスワード:');
 define('ENTRY_PASSWORD_NEW_TEXT', '*');
-define('ENTRY_PASSWORD_NEW_ERROR', 'Your new Password must contain a minimum of ' . ENTRY_PASSWORD_MIN_LENGTH . ' characters.');
-define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'The Password Confirmation must match your new Password.');
+define('ENTRY_PASSWORD_NEW_ERROR', '新しいパスワードは少なくても ' . ENTRY_PASSWORD_MIN_LENGTH . '文字以上の入力が必要です。');
+define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'パスワードが一致しませんね。');
 define('PASSWORD_HIDDEN', '--HIDDEN--');
 
-define('FORM_REQUIRED_INFORMATION', '* Required information');
+define('FORM_REQUIRED_INFORMATION', '* 必須項目');
 
 // constants for use in tep_prev_next_display function
-define('TEXT_RESULT_PAGE', 'Result Pages:');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> products)');
-define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> orders)');
-define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> reviews)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> new products)');
-define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> specials)');
+define('TEXT_RESULT_PAGE', '結果ページ:');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', '表示 <strong>%d</strong> まで <strong>%d</strong> ( <strong>%d</strong> の商品)');
+define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Displaying <strong>%d</strong> まで <strong>%d</strong> (of <strong>%d</strong> 注文)');
+define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Displaying <strong>%d</strong> まで <strong>%d</strong> (of <strong>%d</strong> レビュー)');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Displaying <strong>%d</strong> まで <strong>%d</strong> (of <strong>%d</strong> 新商品)');
+define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Displaying <strong>%d</strong> まで <strong>%d</strong> (of <strong>%d</strong> スペシャル)');
 
-define('PREVNEXT_TITLE_FIRST_PAGE', 'First Page');
-define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Previous Page');
-define('PREVNEXT_TITLE_NEXT_PAGE', 'Next Page');
-define('PREVNEXT_TITLE_LAST_PAGE', 'Last Page');
+define('PREVNEXT_TITLE_FIRST_PAGE', 'トップページ');
+define('PREVNEXT_TITLE_PREVIOUS_PAGE', '前のページ');
+define('PREVNEXT_TITLE_NEXT_PAGE', '次のページ');
+define('PREVNEXT_TITLE_LAST_PAGE', '最後のページ');
 define('PREVNEXT_TITLE_PAGE_NO', 'Page %d');
-define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Previous Set of %d Pages');
-define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Next Set of %d Pages');
-define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;FIRST');
-define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;Prev]');
-define('PREVNEXT_BUTTON_NEXT', '[Next&nbsp;&gt;&gt;]');
-define('PREVNEXT_BUTTON_LAST', 'LAST&gt;&gt;');
+define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', ' %d のページの前のセット');
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', '%d の次のページのセット');
+define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;トップ');
+define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;前]');
+define('PREVNEXT_BUTTON_NEXT', '[次&nbsp;&gt;&gt;]');
+define('PREVNEXT_BUTTON_LAST', '最後&gt;&gt;');
 
-define('IMAGE_BUTTON_ADD_ADDRESS', 'Add Address');
-define('IMAGE_BUTTON_ADDRESS_BOOK', 'Address Book');
-define('IMAGE_BUTTON_BACK', 'Back');
-define('IMAGE_BUTTON_BUY_NOW', 'Buy Now');
-define('IMAGE_BUTTON_CHANGE_ADDRESS', 'Change Address');
-define('IMAGE_BUTTON_CHECKOUT', 'Checkout');
-define('IMAGE_BUTTON_CONFIRM_ORDER', 'Confirm Order');
-define('IMAGE_BUTTON_CONTINUE', 'Continue');
-define('IMAGE_BUTTON_CONTINUE_SHOPPING', 'Continue Shopping');
-define('IMAGE_BUTTON_DELETE', 'Delete');
-define('IMAGE_BUTTON_EDIT_ACCOUNT', 'Edit Account');
-define('IMAGE_BUTTON_HISTORY', 'Order History');
-define('IMAGE_BUTTON_LOGIN', 'Sign In');
-define('IMAGE_BUTTON_IN_CART', 'Add to Cart');
-define('IMAGE_BUTTON_NOTIFICATIONS', 'Notifications');
-define('IMAGE_BUTTON_QUICK_FIND', 'Quick Find');
-define('IMAGE_BUTTON_REMOVE_NOTIFICATIONS', 'Remove Notifications');
-define('IMAGE_BUTTON_REVIEWS', 'Reviews');
-define('IMAGE_BUTTON_SEARCH', 'Search');
-define('IMAGE_BUTTON_SHIPPING_OPTIONS', 'Shipping Options');
-define('IMAGE_BUTTON_TELL_A_FRIEND', 'Tell a Friend');
-define('IMAGE_BUTTON_UPDATE', 'Update');
-define('IMAGE_BUTTON_UPDATE_CART', 'Update Cart');
-define('IMAGE_BUTTON_WRITE_REVIEW', 'Write Review');
+define('IMAGE_BUTTON_ADD_ADDRESS', '住所追加');
+define('IMAGE_BUTTON_ADDRESS_BOOK', 'アドレス帳');
+define('IMAGE_BUTTON_BACK', '戻る');
+define('IMAGE_BUTTON_BUY_NOW', '今すぐ購入します。');
+define('IMAGE_BUTTON_CHANGE_ADDRESS', '住所変更');
+define('IMAGE_BUTTON_CHECKOUT', '購入');
+define('IMAGE_BUTTON_CONFIRM_ORDER', '注文の確定');
+define('IMAGE_BUTTON_CONTINUE', '次へ');
+define('IMAGE_BUTTON_CONTINUE_SHOPPING', '買い物を続ける');
+define('IMAGE_BUTTON_DELETE', '削除');
+define('IMAGE_BUTTON_EDIT_ACCOUNT', '登録情報の編集');
+define('IMAGE_BUTTON_HISTORY', '注文履歴');
+define('IMAGE_BUTTON_LOGIN', 'ログイン');
+define('IMAGE_BUTTON_IN_CART', '買い物かごに入れる');
+define('IMAGE_BUTTON_NOTIFICATIONS', '通知');
+define('IMAGE_BUTTON_QUICK_FIND', '検索');
+define('IMAGE_BUTTON_REMOVE_NOTIFICATIONS', '通知を削除');
+define('IMAGE_BUTTON_REVIEWS', 'レビュー');
+define('IMAGE_BUTTON_SEARCH', '検索');
+define('IMAGE_BUTTON_SHIPPING_OPTIONS', '配送オプション');
+define('IMAGE_BUTTON_TELL_A_FRIEND', '友だちに教える');
+define('IMAGE_BUTTON_UPDATE', '変更');
+define('IMAGE_BUTTON_UPDATE_CART', '買い物かごの更新');
+define('IMAGE_BUTTON_WRITE_REVIEW', 'レビューを書く');
 
-define('SMALL_IMAGE_BUTTON_DELETE', 'Delete');
-define('SMALL_IMAGE_BUTTON_EDIT', 'Edit');
-define('SMALL_IMAGE_BUTTON_VIEW', 'View');
+define('SMALL_IMAGE_BUTTON_DELETE', '削除');
+define('SMALL_IMAGE_BUTTON_EDIT', '編集');
+define('SMALL_IMAGE_BUTTON_VIEW', '見る');
 
-define('ICON_ARROW_RIGHT', 'more');
-define('ICON_CART', 'In Cart');
-define('ICON_ERROR', 'Error');
-define('ICON_SUCCESS', 'Success');
-define('ICON_WARNING', 'Warning');
+define('ICON_ARROW_RIGHT', 'もっと');
+define('ICON_CART', 'かごの中身');
+define('ICON_ERROR', 'エラー');
+define('ICON_SUCCESS', '完了');
+define('ICON_WARNING', '警告');
 
-define('TEXT_GREETING_PERSONAL', 'Welcome back <span class="greetUser">%s!</span> Would you like to see which <a href="%s"><u>new products</u></a> are available to purchase?');
-define('TEXT_GREETING_PERSONAL_RELOGON', '<small>If you are not %s, please <a href="%s"><u>log yourself in</u></a> with your account information.</small>');
-define('TEXT_GREETING_GUEST', 'Welcome <span class="greetUser">Guest!</span> Would you like to <a href="%s"><u>log yourself in</u></a>? Or would you prefer to <a href="%s"><u>create an account</u></a>?');
+define('TEXT_GREETING_PERSONAL', 'ようこそ <span class="greetUser">%sさん!</span> こちらの<a href="%s"><u>新商品</u></a> を見てみますか？');
+define('TEXT_GREETING_PERSONAL_RELOGON', '<small>もしあなたが %sさんでなければ、あなたのアカウントで <a href="%s"><u>ログイン</u></a> してください。</small>');
+define('TEXT_GREETING_GUEST', 'ようこそ <span class="greetUser">Guestさん!</span> こちらから <a href="%s"><u>ログイン</u></a>してください。初めての方はアカウントの <a href="%s"><u>新規作成</u></a>をしてください。');
 
-define('TEXT_SORT_PRODUCTS', 'Sort products ');
-define('TEXT_DESCENDINGLY', 'descendingly');
-define('TEXT_ASCENDINGLY', 'ascendingly');
+define('TEXT_SORT_PRODUCTS', '商品の並べ替え ');
+define('TEXT_DESCENDINGLY', '降順');
+define('TEXT_ASCENDINGLY', '昇順');
 define('TEXT_BY', ' by ');
 
-define('TEXT_REVIEW_BY', 'by %s');
-define('TEXT_REVIEW_WORD_COUNT', '%s words');
-define('TEXT_REVIEW_RATING', 'Rating: %s [%s]');
-define('TEXT_REVIEW_DATE_ADDED', 'Date Added: %s');
-define('TEXT_NO_REVIEWS', 'There are currently no product reviews.');
+define('TEXT_REVIEW_BY', ' %sさんから');
+define('TEXT_REVIEW_WORD_COUNT', '%s 内容');
+define('TEXT_REVIEW_RATING', '評価: %s [%s]');
+define('TEXT_REVIEW_DATE_ADDED', '日付: %s');
+define('TEXT_NO_REVIEWS', '商品のレビューはまだありません。');
 
-define('TEXT_NO_NEW_PRODUCTS', 'There are currently no products.');
+define('TEXT_NO_NEW_PRODUCTS', '現在商品はありません。');
 
-define('TEXT_UNKNOWN_TAX_RATE', 'Unknown tax rate');
+define('TEXT_UNKNOWN_TAX_RATE', '未知の税率');
 
-define('TEXT_REQUIRED', '<span class="errorText">Required</span>');
+define('TEXT_REQUIRED', '<span class="errorText">必須</span>');
 
-define('ERROR_TEP_MAIL', '<font face="Verdana, Arial" size="2" color="#ff0000"><strong><small>TEP ERROR:</small> Cannot send the email through the specified SMTP server. Please check your php.ini setting and correct the SMTP server if necessary.</strong></font>');
+define('ERROR_TEP_MAIL', '<font face="Verdana, Arial" size="2" color="#ff0000"><strong><small>TEP ERROR:</small> 指定したSMTPサーバーを介して電子メールを送信することはできません。 php.iniの設定を確認し、SMTPサーバーを必要に応じて修正してください。</strong></font>');
 
-define('TEXT_CCVAL_ERROR_INVALID_DATE', 'The expiry date entered for the credit card is invalid. Please check the date and try again.');
-define('TEXT_CCVAL_ERROR_INVALID_NUMBER', 'The credit card number entered is invalid. Please check the number and try again.');
-define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', 'The first four digits of the number entered are: %s. If that number is correct, we do not accept that type of credit card. If it is wrong, please try again.');
+define('TEXT_CCVAL_ERROR_INVALID_DATE', 'クレジットカードのために入力した有効期限が無効です。日付を確認して、もう一度お試しください。');
+define('TEXT_CCVAL_ERROR_INVALID_NUMBER', '入力したクレジットカード番号が無効です。番号を確認してから、もう一度やり直してください。');
+define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', '番号の最初の4桁は、入力: %s. その番号が正しければ、我々はクレジットカードのタイプを受け入れません。 それが間違っている場合は、もう一度やり直してください。');
 
 define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . tep_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a><br />Powered by <a href="http://www.oscommerce.com" target="_blank">osCommerce</a>');
 ?>

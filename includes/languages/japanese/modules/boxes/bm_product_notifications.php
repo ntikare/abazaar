@@ -10,9 +10,9 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_TITLE', 'Product Notifications');
-  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_DESCRIPTION', 'Show product notifications on the product information page');
-  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_TITLE', 'Notifications');
-  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY', 'Notify me of updates to <strong>%s</strong>');
-  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY_REMOVE', 'Do not notify me of updates to <strong>%s</strong>');
+  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_TITLE', '製品通知');
+  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_DESCRIPTION', '製品情報ページで製品の通知を表示する');
+  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_TITLE', '通知');
+  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY', ' <strong>%s</strong>の最新情報をお知らせ');
+  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY_REMOVE', ' <strong>%s</strong>の最新情報を知らせないでください');
 ?>

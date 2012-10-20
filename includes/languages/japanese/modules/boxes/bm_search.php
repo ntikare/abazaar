@@ -10,9 +10,9 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_SEARCH_TITLE', 'Search');
-  define('MODULE_BOXES_SEARCH_DESCRIPTION', 'Show search field');
-  define('MODULE_BOXES_SEARCH_BOX_TITLE', 'Quick Find');
-  define('MODULE_BOXES_SEARCH_BOX_TEXT', 'Use keywords to find the product you are looking for.');
-  define('MODULE_BOXES_SEARCH_BOX_ADVANCED_SEARCH', 'Advanced Search');
+  define('MODULE_BOXES_SEARCH_TITLE', '検索');
+  define('MODULE_BOXES_SEARCH_DESCRIPTION', '検索フィールドを表示する');
+  define('MODULE_BOXES_SEARCH_BOX_TITLE', 'クイック検索');
+  define('MODULE_BOXES_SEARCH_BOX_TEXT', 'キーワードを入力し、探している商品を検索します。');
+  define('MODULE_BOXES_SEARCH_BOX_ADVANCED_SEARCH', '高度な検索');
 ?>

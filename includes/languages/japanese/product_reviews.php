@@ -10,9 +10,9 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Reviews');
+define('NAVBAR_TITLE', 'レビュー');
 
-define('TEXT_CLICK_TO_ENLARGE', 'Click to enlarge');
+define('TEXT_CLICK_TO_ENLARGE', 'クリックすると拡大します');
 
 define('TEXT_OF_5_STARS', '%s of 5 Stars!');
 ?>

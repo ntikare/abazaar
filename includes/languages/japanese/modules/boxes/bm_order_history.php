@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_ORDER_HISTORY_TITLE', 'Order History');
-  define('MODULE_BOXES_ORDER_HISTORY_DESCRIPTION', 'Show previously ordered products to signed in customers');
-  define('MODULE_BOXES_ORDER_HISTORY_BOX_TITLE', 'Order History');
+  define('MODULE_BOXES_ORDER_HISTORY_TITLE', '注文履歴');
+  define('MODULE_BOXES_ORDER_HISTORY_DESCRIPTION', 'お客さまに署名する前に発注した商品を表示する');
+  define('MODULE_BOXES_ORDER_HISTORY_BOX_TITLE', '注文履歴');
 ?>

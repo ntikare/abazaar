@@ -11,7 +11,7 @@
 */
 
 define('NAVBAR_TITLE_1', 'お支払情報');
-define('NAVBAR_TITLE_2', '成功');
+define('NAVBAR_TITLE_2', '完了');
 
 define('HEADING_TITLE', 'ご注文は処理されました！');
 

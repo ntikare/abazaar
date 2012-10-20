@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'New Products');
-define('HEADING_TITLE', 'New Products');
+define('NAVBAR_TITLE', '新商品');
+define('HEADING_TITLE', '新商品');
 
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_MANUFACTURER', 'Manufacturer:');
-define('TEXT_PRICE', 'Price:');
+define('TEXT_DATE_ADDED', '発売日:');
+define('TEXT_MANUFACTURER', 'メーカー・ブランド:');
+define('TEXT_PRICE', '価格:');
 ?>

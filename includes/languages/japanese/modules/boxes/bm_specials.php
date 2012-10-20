@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_SPECIALS_TITLE', 'Specials');
-  define('MODULE_BOXES_SPECIALS_DESCRIPTION', 'Show products on special');
-  define('MODULE_BOXES_SPECIALS_BOX_TITLE', 'Specials');
+  define('MODULE_BOXES_SPECIALS_TITLE', 'スペシャル');
+  define('MODULE_BOXES_SPECIALS_DESCRIPTION', 'スペシャル商品を表示する');
+  define('MODULE_BOXES_SPECIALS_BOX_TITLE', 'スペシャル');
 ?>

@@ -10,15 +10,15 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Login');
-define('NAVBAR_TITLE_2', 'Password Reset');
+define('NAVBAR_TITLE_1', 'ログイン');
+define('NAVBAR_TITLE_2', 'パスワードのリセット');
 
-define('HEADING_TITLE', 'Password Reset');
+define('HEADING_TITLE', 'パスワードのリセット');
 
-define('TEXT_MAIN', 'Please enter a new password for your account.');
+define('TEXT_MAIN', '新しいパスワードを入力してください。');
 
-define('TEXT_NO_RESET_LINK_FOUND', 'Error: The password reset link was not found in our records, please try again by generating a new link.');
-define('TEXT_NO_EMAIL_ADDRESS_FOUND', 'Error: The E-Mail Address was not found in our records, please try again.');
+define('TEXT_NO_RESET_LINK_FOUND', 'Error: パスワードリセットのリンクは、当社の記録には見つかりませんでした、新しいリンクを生成することによって、もう一度お試しください。');
+define('TEXT_NO_EMAIL_ADDRESS_FOUND', 'Error: このE-mailアドレスは、弊社の記録には見つかりませんでした、もう一度お試しください。');
 
-define('SUCCESS_PASSWORD_RESET', 'Your password has been successfully updated. Please login with your new password.');
+define('SUCCESS_PASSWORD_RESET', 'パスワードが正常に更新されました。新しいパスワードでログインしてください。');
 ?>

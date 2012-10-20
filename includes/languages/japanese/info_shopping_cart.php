@@ -10,12 +10,12 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Visitors Cart / Members Cart');
-define('SUB_HEADING_TITLE_1', 'Visitors Cart');
-define('SUB_HEADING_TITLE_2', 'Members Cart');
-define('SUB_HEADING_TITLE_3', 'Info');
-define('SUB_HEADING_TEXT_1', 'Every visitor to our online shop will be given a \'Visitors Cart\'. This allows the visitor to store their products in a temporary shopping cart. Once the visitor leaves the online shop, so will the contents of their shopping cart.');
-define('SUB_HEADING_TEXT_2', 'Every member to our online shop that logs in is given a \'Members Cart\'. This allows the member to add products to their shopping cart, and come back at a later date to finalize their checkout. All products remain in their shopping cart until the member has  checked them out, or removed the products themselves.');
-define('SUB_HEADING_TEXT_3', 'If a member adds products to their \'Visitors Cart\' and decides to log in to the online shop to use their \'Members Cart\', the contents of their \'Visitors Cart\' will merge with their \'Members Cart\' contents automatically.');
-define('TEXT_CLOSE_WINDOW', '[ close window ]');
+define('HEADING_TITLE', 'ゲストの買い物カゴ / 会員の買い物カゴ');
+define('SUB_HEADING_TITLE_1', 'ゲストの買い物カゴ');
+define('SUB_HEADING_TITLE_2', '会員の買い物カゴ');
+define('SUB_HEADING_TITLE_3', '情報');
+define('SUB_HEADING_TEXT_1', '私たちのオンラインショップにすべての訪問者は、ゲストの買い物カゴが与えられます。 これはゲストが一時的な買い物カゴに商品をを保管することができます。こちらは、当店を離れるまで有効です。');
+define('SUB_HEADING_TEXT_2', 'すべての会員には買い物カゴが与えられます。これは、メンバーが買い物カゴに商品を追加し、注文を確定するために、後日戻ってくることができます。会員はそれらを購入、あるいは商品を削除するまで、すべての商品は買い物カゴの中に残ります。');
+define('SUB_HEADING_TEXT_3', 'ゲストは\'買い物カゴ\'に商品を追加し、会員としてログインすることを決定した場合、ゲストの買い物カゴの内容が自動的に\'会員の買い物カゴ\'の内容とされます。');
+define('TEXT_CLOSE_WINDOW', '[ 閉じる ]');
 ?>

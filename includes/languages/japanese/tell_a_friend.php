@@ -10,29 +10,29 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Tell A Friend');
+define('NAVBAR_TITLE', '友だちに教える');
 
-define('HEADING_TITLE', 'Tell A Friend About \'%s\'');
+define('HEADING_TITLE', ' \'%s\'について友だちに教える');
 
-define('FORM_TITLE_CUSTOMER_DETAILS', 'Your Details');
-define('FORM_TITLE_FRIEND_DETAILS', 'Your Friends Details');
-define('FORM_TITLE_FRIEND_MESSAGE', 'Your Message');
+define('FORM_TITLE_CUSTOMER_DETAILS', 'あなたの詳細');
+define('FORM_TITLE_FRIEND_DETAILS', 'お友だちについて');
+define('FORM_TITLE_FRIEND_MESSAGE', 'あなたのメッセージ');
 
-define('FORM_FIELD_CUSTOMER_NAME', 'Your Name:');
-define('FORM_FIELD_CUSTOMER_EMAIL', 'Your E-Mail Address:');
-define('FORM_FIELD_FRIEND_NAME', 'Your Friends Name:');
-define('FORM_FIELD_FRIEND_EMAIL', 'Your Friends E-Mail Address:');
+define('FORM_FIELD_CUSTOMER_NAME', 'あなたのお名前:');
+define('FORM_FIELD_CUSTOMER_EMAIL', 'あなたの E-Mail アドレス:');
+define('FORM_FIELD_FRIEND_NAME', 'お友だちのお名前:');
+define('FORM_FIELD_FRIEND_EMAIL', 'お友達の E-Mail アドレス:');
 
-define('TEXT_EMAIL_SUCCESSFUL_SENT', 'Your email about <strong>%s</strong> has been successfully sent to <strong>%s</strong>.');
+define('TEXT_EMAIL_SUCCESSFUL_SENT', 'あなたの <strong>%s</strong> についてのEメールは <strong>%s</strong>.');
 
-define('TEXT_EMAIL_SUBJECT', 'Your friend %s has recommended this great product from %s');
-define('TEXT_EMAIL_INTRO', 'Hi %s!' . "\n\n" . 'Your friend, %s, thought that you would be interested in %s from %s.');
-define('TEXT_EMAIL_LINK', 'To view the product click on the link below or copy and paste the link into your web browser:' . "\n\n" . '%s');
-define('TEXT_EMAIL_SIGNATURE', 'Regards,' . "\n\n" . '%s');
+define('TEXT_EMAIL_SUBJECT', 'あなたのお友だちの %s さんがこの素晴らしい商品を推薦しています。 %s');
+define('TEXT_EMAIL_INTRO', 'こんにちは %sさん!' . "\n\n" . 'あなたのお友だち, %sさんが%sをお勧めしています。%sで買いました。');
+define('TEXT_EMAIL_LINK', '下のリンクをクリックして商品を表示したり、Webブラウザにリンクをコピーして貼り付けるには:' . "\n\n" . '%s');
+define('TEXT_EMAIL_SIGNATURE', 'ありがとうございます！' . "\n\n" . '%s');
 
-define('ERROR_TO_NAME', 'Error: Your friends name must not be empty.');
-define('ERROR_TO_ADDRESS', 'Error: Your friends e-mail address must be a valid e-mail address.');
-define('ERROR_FROM_NAME', 'Error: Your name must not be empty.');
-define('ERROR_FROM_ADDRESS', 'Error: Your e-mail address must be a valid e-mail address.');
-define('ERROR_ACTION_RECORDER', 'Error: An e-mail has already been sent. Please try again in %s minutes.');
+define('ERROR_TO_NAME', 'Error: あなたの友人の名は空白にできません。');
+define('ERROR_TO_ADDRESS', 'Error: あなたのお友だちの 電子メールアドレスは、有効なものでなければなりません。');
+define('ERROR_FROM_NAME', 'Error: あなたの名は空白にできません。');
+define('ERROR_FROM_ADDRESS', 'Error: あなたの電子メールアドレスは有効なものでなければなりません。');
+define('ERROR_ACTION_RECORDER', 'Error: 電子メールがすでに送信されています。 %s分後にもう一度やり直してください。');
 ?>

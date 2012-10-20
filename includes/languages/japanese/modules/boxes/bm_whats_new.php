@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_WHATS_NEW_TITLE', 'What\'s New');
-  define('MODULE_BOXES_WHATS_NEW_DESCRIPTION', 'Show the newest products');
-  define('MODULE_BOXES_WHATS_NEW_BOX_TITLE', 'What\'s New?');
+  define('MODULE_BOXES_WHATS_NEW_TITLE', '新着情報');
+  define('MODULE_BOXES_WHATS_NEW_DESCRIPTION', '最新商品を表示する');
+  define('MODULE_BOXES_WHATS_NEW_BOX_TITLE', '新着情報');
 ?>
