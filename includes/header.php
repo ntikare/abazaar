@@ -37,7 +37,7 @@
 </script>
 </div>
 
-<div class="grid_24 ui-widget infoBoxContainer">
+<div id="menubar" class="grid_24 ui-widget infoBoxContainer">
   <div class="ui-widget-header infoBoxHeading"><?php echo '&nbsp;&nbsp;' . $breadcrumb->trail(' &raquo; '); ?></div>
 </div>
 

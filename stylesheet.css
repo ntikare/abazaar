@@ -26,12 +26,21 @@ body {
 }
 
 #bodyContent {
+border: 1px solid #CC0033;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:10px;
+width:608px;
 }
 
 #header {
-  height: 252px;
+  height: 247px;
 }
+#menubar{
+padding-top:5px;
+padding-bottom:8px;
 
+}
 #storeLogo {
   float: left;
   margin-top: 5px;
@@ -46,14 +55,16 @@ body {
 }
 
 #columnLeft {
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 #columnRight {
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
-.infoBoxContainer { }
+.infoBoxContainer { 
+
+}
 
 .infoBoxHeading {
   padding: 2px;
