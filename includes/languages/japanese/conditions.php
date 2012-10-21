@@ -10,25 +10,22 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'お支払いとキャンセルについて');
-define('HEADING_TITLE', 'お支払いとキャンセルについて');
+define('NAVBAR_TITLE', 'お支払い・キャンセル・返品について');
+define('HEADING_TITLE', 'お支払い・キャンセル・返品について');
 
 define('TEXT_INFORMATION', '<div>
   <hr size="1">
-  <b>銀行振込</b><br clear="all">
-  <br clear="all">
+  <font size="4" color="Black"><b>銀行振込</b><br clear="all"></font>
+  <font size="2">
   【振込先】さわやか信用金庫/みずほ銀行/ゆうちょ銀行<br clear="all">
   【備考】<br>
   <font color="Orange">●</font>お支払いは前払いとさせて頂きます<br>
-  <br>
   <font color="Orange">●</font>お振込先・お振込金額などの詳細をメールでお送り致しますので、１週間以内にお振込願います。<br>
-  <br>
   <font color="Orange">●</font>ご入金の確認ができ次第の発送となります。お振込みのご連絡をいただきますと、スムーズに発送することができます。<br>
-  <br clear="all">
-  <font color="Orange">●</font>１週間経ってもお振込を確認できない場合は、申し訳ございませんがキャンセル扱いとさせて頂きます。<br clear="all">
+  <font color="Orange">●</font>１週間経ってもお振込を確認できない場合は、申し訳ございませんがキャンセル扱いとさせて頂きます。<br clear="all"></font>
   <hr>
-  <b>代金引換</b><br clear="all">
-  <br clear="all">
+  <font size="4" color="Black"><b>代金引換</b><br clear="all"></font>
+  <font size="2">
   【備考】<br>
   <font color="Orange">●</font>代金引換手数料として250円頂きます。<br>
   <br>
@@ -44,7 +41,7 @@ define('TEXT_INFORMATION', '<div>
   　何卒、ご了承願います。<br>
   <br>
   <hr size="1">
-  【代引手数料料金表】 全国一律料金： 200円<br>
+  【代引手数料料金表】 全国一律料金： 200円<br></font>
   <table border="0" cellpadding="4" cellspacing="4" bgcolor="#ffffff">
     <tbody>
       <tr>
@@ -72,14 +69,13 @@ define('TEXT_INFORMATION', '<div>
   <br clear="all">
   <hr size="1">
   <font size="4" color="Black"><b>変更・キャンセル・返品について</b></font> <br clear="all">
-  <blockquote><font size="2" color="Black"><b>◆出荷前のｷｬﾝｾﾙについて</b></font><br>
+  <font size="2" color="Black"><b>◆出荷前のｷｬﾝｾﾙについて</b></font><br>
   <br>
   <font size="2" color="Black">出荷前のキャンセルは､発送日前日の正午まで受付ております｡</font><br>
   <font size="2" color="Black">メールもしくはお電話にてご連絡下さいませ｡</font><br>
   <font size="2" color="Black">その際キャンセル手数料などは発生致しませんのでご安心下さいませ｡</font><br>
   <font size="2" color="Black">銀行振込などで既に振込済みの場合、振込手数料を差し引いた金額をご返金させて頂きます。</font><br>
-  </blockquote>
-  <blockquote><br>
+  <br>
   <font size="2" color="Black"><b>◆当店都合の商品出荷後のキャンセル・返品について</b></font><br>
   <br>
   <font size="2" color="Black">商品の送付ﾐｽなど､当店の責任によりご返品される場合は､一切費用はかかりません｡</font><br>
@@ -97,7 +93,6 @@ define('TEXT_INFORMATION', '<div>
   <font size="2" color="Black">その際､往復分（送料無料商品の場合片道分）の送料をご請求させて頂きます｡</font><br>
   <font size="2" color="Black">返送後､品質に問題がないようでしたら再発送させて頂きます｡</font><br>
   <font size="2" color="Black">※再発送送料を別途ご請求させて頂きます｡</font><br>
-  </blockquote>
     <hr size="1"></div>
   ');
 ?>

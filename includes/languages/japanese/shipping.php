@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', '配送 &amp; 返品');
-define('HEADING_TITLE', '配送 &amp; 返品');
+define('NAVBAR_TITLE', '配送について');
+define('HEADING_TITLE', '配送について');
 
 define('TEXT_INFORMATION', '<div><u>東京都品川区、大田区、港区にお住まいの方</u>は、<font color="Red">5000円以上のご注文で、送料は無料で即日配達いたします。</font>それ以外にお住まいの方は、以下の送料表をご参照ください。<font color="Red">8000円以上のご注文で、送料は無料です。</font><br clear="all">
   <br clear="all">

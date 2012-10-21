@@ -10,194 +10,238 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Shipping &amp; Returns');
-define('HEADING_TITLE', 'Shipping &amp; Returns');
+define('NAVBAR_TITLE', 'About Shipping');
+define('HEADING_TITLE', 'About Shipping');
 
-define('TEXT_INFORMATION', '<div><font color="DarkRed">If you live in<b>Shinagawa-ku, Ota-ku, Minato-ku (Tokyo),</b>Delivery free for 5,000 yen or more</font>.<font color="DarkRed">The same-day delivery ispossible!!</font><br clear="all">
+define('TEXT_INFORMATION', '<div><font color="DarkRed">If you live in<b>Shinagawa-ku, Ota-ku, Minato-ku (Tokyo),</b>Delivery is free for order of 5,000 yen or more between 7:00PM to 10:00PM</font>.<font color="DarkRed">The same-day delivery ispossible!!</font><br clear="all">
   <br clear="all">
-  <font color="DarkRed"><b>Other regions</b>can be sent by courier.Please ask us shippingby e-mail or phone. On orders over 8000yen, shipping is free.</font><br clear="all">
+  <font color="DarkRed"><b>Other regions</b>can be sent by courier(excluding frozen products). On orders over 8000yen (excluding frozen products), shipping is free.</font><br clear="all">
   <br clear="all">
+ <font color="DarkRed"><b>Frozen products will be delivered via "SPECIAL FROZEN DELIVERY SERVICE" and delivery is free for order of 8000 Yen or more (including frozen products only)</b></font><br clear="all">
+ <br clear="all">
   <hr size="1">
-    <font size="2" color="Black">●到着日はご指定頂いた日時指定にてお送りさせて頂きます。　発送日に関しましては別途メールにてご案内しております。</font><br>
-  <font size="2" color="Black">　地域により到着日時を指定できない地域もございます。</font><br>
-  <font size="2" color="Black">　その際は到着指定無しにてお送り致しますので予めご了承下さいませ。</font><br>
-  <font size="2" color="Black">●冷凍食品につきましては、クール便でお届けします。</font><br>
-  <font size="2" color="Black">　クール便未対応地域に関しましてはお届けすることができませんので予めご了承下さいませ。</font><br>
-  <font size="2" color="Black">　クール便送料が別途必要となります。</font><br>
-  <font size="2" color="Black">　クール便未対応地域にお送りする際はご注文前に一度ご連絡下さいませ。</font><br>
-  <font size="2" color="Black">●宅配ボックスの一時保管は承っておりますが、クール便の場合、長時間の保管は適していない上、品質上問題が生じる場合もございます。</font>
-  <font size="2" color="Black">　宅配ボックス保管の際は、お早めにお受け取り下さいませ。</font><br>
+    <font size="2" color="Black">●We will try to deliver your order on requested date. We will notify you via mail on Shippment the parcel from our side.</font><br>
+  <font size="2" color="Black">Depending on region,  we can not promise the date of delivery.</font><br>
     <hr size="1">
-  <b>ゆうパック</b><br clear="all">
-  【備考 送料料金表】<br clear="all">
+  <b>Parcel via post-office </b><br clear="all">
+  【Price table for reference】<br clear="all">
   <table border="1" cellpadding="3" cellspacing="0">
     <tbody>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">北海道</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">北東北</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">南東北</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">関東</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">甲信越</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">北陸</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">東海</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">関西</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">中国</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">四国</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">九州</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">沖縄</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">　</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Hokkaido</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">North Tohoku</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">South Tohoku</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Kanto</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Koshinetsu</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Hokuriku</font></td width="85px">
+       
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">地域詳細</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">北海道　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">青森県　岩手県　秋田県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">宮城県　山形県　福島県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">茨城県　栃木県　群馬県　埼玉県　千葉県　東京都　神奈川県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">新潟県　山梨県　長野県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">富山県　石川県　福井県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">岐阜県　静岡県　愛知県　三重県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">滋賀県　京都府　大阪府　兵庫県　奈良県　和歌山県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">鳥取県　島根県　岡山県　広島県　山口県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">徳島県　香川県　愛媛県　高知県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">福岡県　佐賀県　長崎県　熊本県　大分県　宮崎県　鹿児島県　</font></td>
-        <td bgcolor="#dddddd"><font size="2" color="Black">沖縄県　</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Prefecture</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Hokkaido</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Aomori, Iwate,  Akita </font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Yamagata, Fukushima, Miyagi</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Tokyo, Kanagawa, Chiba, Saitama, Gunma, Ibaraki, Tochigi</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Yamanashi, Nagano, Niigata</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Fukui, Ishikawa, Toyama</font></td width="85px">
+    
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">60</font></td>
-        <td align="right"><font size="2" color="Black">900円</font></td>
-        <td align="right"><font size="2" color="Black">600円</font></td>
-        <td align="right"><font size="2" color="Black">600円</font></td>
-        <td align="right"><font size="2" color="Black">600円</font></td>
-        <td align="right"><font size="2" color="Black">600円</font></td>
-        <td align="right"><font size="2" color="Black">600円</font></td>
-        <td align="right"><font size="2" color="Black">600円</font></td>
-        <td align="right"><font size="2" color="Black">700円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1100円</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">60 CM</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">900Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">600Yen</font></td width="85px">
+
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">80</font></td>
-        <td align="right"><font size="2" color="Black">1100円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">800円</font></td>
-        <td align="right"><font size="2" color="Black">900円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1300円</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">80 CM</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1100Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+ 
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">100</font></td>
-        <td align="right"><font size="2" color="Black">1300円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1000円</font></td>
-        <td align="right"><font size="2" color="Black">1100円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1500円</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">100 CM</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1300Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">120</font></td>
-        <td align="right"><font size="2" color="Black">1500円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1200円</font></td>
-        <td align="right"><font size="2" color="Black">1300円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1700円</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">120 CM</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1500Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">140</font></td>
-        <td align="right"><font size="2" color="Black">1700円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1400円</font></td>
-        <td align="right"><font size="2" color="Black">1500円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1900円</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">140 CM</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1700Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+   
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">160</font></td>
-        <td align="right"><font size="2" color="Black">1900円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1600円</font></td>
-        <td align="right"><font size="2" color="Black">1700円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">2000円</font></td>
-        <td align="right"><font size="2" color="Black">2100円</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">160 CM</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1900Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+  
       </tr>
       <tr>
-        <td bgcolor="#dddddd"><font size="2" color="Black">180</font></td>
-        <td align="right"><font size="2" color="Black">2100円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1800円</font></td>
-        <td align="right"><font size="2" color="Black">1900円</font></td>
-        <td align="right"><font size="2" color="Black">2000円</font></td>
-        <td align="right"><font size="2" color="Black">2000円</font></td>
-        <td align="right"><font size="2" color="Black">2200円</font></td>
-        <td align="right"><font size="2" color="Black">2300円</font></td>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">180 CM</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">2100Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+    
       </tr>
     </tbody>
   </table>
-  <font size="1" color="Black">※上記送料表は目安としてお使いください。</font>ご注文いただいた際に、正式な送料をお伝えいたします。<br clear="all">
-  <font size="1" color="Black">※左の数字は、梱包サイズの3辺の合計です。</font><br clear="all">
+ <table border="1" cellpadding="3" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">　</font></td width="85px">
+      
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Tokai</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Kansai</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Chugoku</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Shikoku</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Kyushu</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Okinawa</font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Prefecture</font></td width="85px">
+  
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Aichi, Gifu, Shizuoka, Mie </font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Wakayama, Kyoto, Osaka, Hyogo, Nara, Shiga </font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Yamaguchi Tottori Shimane Okayama Hiroshima </font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Kochi Tokushima Kagawa Ehime</font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Oita Miyazaki Kagoshima Kumamoto Nagasaki Saga, Fukuoka </font></td width="85px">
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">Okinawa </font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">60 CM</font></td width="85px">
+    
+        <td width="85px" align="center"><font size="2" color="Black">600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">700Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1100Yen</font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">80 CM</font></td width="85px">
+        
+        <td width="85px" align="center"><font size="2" color="Black">800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">900Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1300Yen</font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">100 CM</font></td width="85px">
+       
+        <td width="85px" align="center"><font size="2" color="Black">1000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1100Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1500Yen</font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">120 CM</font></td width="85px">
+      
+        <td width="85px" align="center"><font size="2" color="Black">1200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1300Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1700Yen</font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">140 CM</font></td width="85px">
+      
+        <td width="85px" align="center"><font size="2" color="Black">1400Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1500Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1900Yen</font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">160 CM</font></td width="85px">
+      
+        <td width="85px" align="center"><font size="2" color="Black">1600Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1700Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">2000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">2100Yen</font></td width="85px">
+      </tr>
+      <tr>
+        <td width="85px" bgcolor="#dddddd"><font size="2" color="Black">180 CM</font></td width="85px">
+       
+        <td width="85px" align="center"><font size="2" color="Black">1800Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">1900Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">2000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">2000Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">2200Yen</font></td width="85px">
+        <td width="85px" align="center"><font size="2" color="Black">2300Yen</font></td width="85px">
+      </tr>
+    </tbody>
+  </table>
+   <font size="2" color="Black">※Above table is for only reference of delivery charges.</font>Actual charges will be notified via mail on devlivery.<br clear="all">
+  <font size="2" color="Black">※Left column indicates charges for each dimension(height, width, length). Total delivery charges is sum of of charges for height , width and length</font><br clear="all">
   <table border="0" cellpadding="4" cellspacing="4" bgcolor="#ffffff">
     <tbody>
       <tr>
-        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">高額購入割引特典</font></td>
-        <td><font size="2" color="Black">１配送先につき、合計　10000円以上ご注文いただいた場合、送料が　0円になります。</font></td>
+        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">Special discount</font></td>
+        <td><font size="2" color="Black">For orders (excluding frozen items) over 8000 Yen delivery charges is <b>O YEN</b></font></td>
       </tr>
       <tr>
-        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">送料分消費税</font></td>
-        <td><font size="2" color="Black">この料金には消費税が 含まれています。</font></td>
+        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">Consumption Tax</font></td>
+        <td><font size="2" color="Black">Delivery charges is inclusive of consumption tax.</font></td>
       </tr>
     </tbody>
   </table>
   <hr size="1">
-  <font size="4" color="Black"><b>チルド便について</b></font> <br clear="all">
+  <font size="4" color="Black"><b>About SPECIAL FROZEN DELIVERY SERVICE</b></font> <br clear="all">
   <table border="0" cellpadding="4" cellspacing="4" bgcolor="#ffffff">
     <tbody>
       <tr>
-        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">チルド便送料</font></td>
-        <td>チルド便送料として250円頂きます。</td>
+        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">Frozen delivery charges</font></td>
+        <td>For delivery of frozen items 250 Yen is charged separately.</td>
       </tr>
       <tr>
-        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">高額購入割引特典</font></td>
-        <td><font size="2" color="Black">１配送先につき、合計　8000円以上ご注文いただいた場合、チルド便送料が　0円になります。</font></td>
+        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">Special discount</font></td>
+        <td><font size="2" color="Black">For orders (inclduing frozen items only) over 8000 Yen delivery charges is <b>O YEN</b></font></td>
       </tr>
       <tr>
-        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">送料分消費税</font></td>
-        <td><font size="2" color="Black">この料金には消費税が 含まれています。</font></td>
+        <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">Consumption Tax</font></td>
+        <td><font size="2" color="Black">Delivery charges is inclusive of consumption tax.</font></td>
       </tr>
     </tbody>
   </table>
