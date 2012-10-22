@@ -58,6 +58,8 @@ define('HEADER_TITLE_TOP', 'トップ');
 define('HEADER_TITLE_CATALOG', '商品リスト');
 define('HEADER_TITLE_LOGOFF', 'ログアウト');
 define('HEADER_TITLE_LOGIN', 'ログイン');
+define('HEADER_TITLE_LANG_SWITCH', 'English');
+define('HEADER_TITLE_LANG_SWITCH_CODE', 'en');
 
 // footer text in includes/footer.php
 define('FOOTER_TEXT_REQUESTS_SINCE', 'リクエスト');
