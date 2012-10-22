@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'About Payment, Cancellation  &amp; Retruns');
-define('HEADING_TITLE', 'About Payment, Cancellation  &amp; Retruns');
+define('NAVBAR_TITLE', 'About Payment, Cancellation &amp; Returns');
+define('HEADING_TITLE', 'About Payment, Cancellation &amp; Returns');
 
 define('TEXT_INFORMATION', '<div>
   <hr size="1">
