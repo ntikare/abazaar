@@ -22,7 +22,13 @@ define('EMAIL_TEXT_TOTAL', 'Total:    ');
 define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Delivery Address');
 define('EMAIL_TEXT_BILLING_ADDRESS', 'Billing Address');
 define('EMAIL_TEXT_PAYMENT_METHOD', 'Payment Method');
+define('EMAIL_TEXT_DELIVERY_CHARGES', 'Delivery Charges');
+define('EMAIL_TEXT_GREETING', 'Dear Customer,
 
+Thank you for shopping with Asian Bazaar.
+Your order will be confirmed shortly.
+Kindly wait for the contact from the shop person.
+');
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('TEXT_EMAIL_VIA', 'via');
 ?>

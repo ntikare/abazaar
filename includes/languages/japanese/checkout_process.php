@@ -22,7 +22,13 @@ define('EMAIL_TEXT_TOTAL', '合計:    ');
 define('EMAIL_TEXT_DELIVERY_ADDRESS', '発送先住所');
 define('EMAIL_TEXT_BILLING_ADDRESS', '請求先住所');
 define('EMAIL_TEXT_PAYMENT_METHOD', '支払方法');
+define('EMAIL_TEXT_DELIVERY_CHARGES', 'Delivery Charges');
+define('EMAIL_TEXT_GREETING', 'Dear Customer,
 
+Thank you for shopping with ASIAN BAZAAR.
+Your order will be confirmed shortly.
+Kindly wait for contact from shop
+');
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('TEXT_EMAIL_VIA', '経由');
 ?>

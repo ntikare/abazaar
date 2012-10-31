@@ -240,7 +240,7 @@
   }
 
 // lets start with the email confirmation
-  $email_order = STORE_NAME . "\n" . 
+  $email_order = EMAIL_TEXT_GREETING . "\n" . 
                  EMAIL_SEPARATOR . "\n" . 
                  EMAIL_TEXT_ORDER_NUMBER . ' ' . $insert_id . "\n" .
                  EMAIL_TEXT_INVOICE_URL . ' ' . tep_href_link(FILENAME_ACCOUNT_HISTORY_INFO, 'order_id=' . $insert_id, 'SSL', false) . "\n" .
@@ -256,7 +256,9 @@
   for ($i=0, $n=sizeof($order_totals); $i<$n; $i++) {
     $email_order .= strip_tags($order_totals[$i]['title']) . ' ' . strip_tags($order_totals[$i]['text']) . "\n";
   }
-
+  $email_order .= "\n".EMAIL_TEXT_DELIVERY_CHARGES . "\n" . 
+                  EMAIL_SEPARATOR . "\n". 
+                  tep_href_link(FILENAME_SHIPPING, null, 'SSL', false) . "\n" ;
   if ($order->content_type != 'virtual') {
     $email_order .= "\n" . EMAIL_TEXT_DELIVERY_ADDRESS . "\n" . 
                     EMAIL_SEPARATOR . "\n" .
@@ -276,10 +278,10 @@
     }
   }
   //mail to customer
-  tep_mail($order->customer['firstname'] . ' ' . $order->customer['lastname'], $order->customer['email_address'], EMAIL_TEXT_SUBJECT, $email_order, STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS);
+  tep_mail($order->customer['firstname'] . ' ' . $order->customer['lastname'], $order->customer['email_address'], EMAIL_TEXT_SUBJECT, $email_order, STORE_NAME, SHOP_ORDER_EMAIL_ADRESS);
   
   //mail to shop
-  tep_mail(STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS, EMAIL_TEXT_SUBJECT, $email_order, 'New Order', 'info@asianbazaar.co.jp');
+  tep_mail(STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS, EMAIL_TEXT_SUBJECT, $email_order, STORE_NAME, SHOP_ORDER_EMAIL_ADRESS);
   
 // send emails to other people
   if (SEND_EXTRA_ORDER_EMAILS_TO != '') {
