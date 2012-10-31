@@ -26,6 +26,8 @@ define('HEADING_BILLING_ADDRESS', '請求先住所');
 define('HEADING_PAYMENT_METHOD', 'お支払方法');
 define('HEADING_PAYMENT_INFORMATION', '支払い方法');
 define('HEADING_ORDER_COMMENTS', 'ご注文についてのコメント');
+define('HEADING_ORDER_SHIPPING_NOTE', 'Please click here to confirm delivery charges');
+
 
 define('TEXT_EDIT', '編集');
 ?>

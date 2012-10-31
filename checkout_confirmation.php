@@ -191,6 +191,7 @@
         </table></td>
       </tr>
     </table>
+  <?php echo  '<a target="_blank" href="' . tep_href_link(FILENAME_SHIPPING) . '">' . HEADING_ORDER_SHIPPING_NOTE . '</a>'?>
   </div>
 
   <h2><?php echo HEADING_BILLING_INFORMATION; ?></h2>
