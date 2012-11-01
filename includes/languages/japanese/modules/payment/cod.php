@@ -10,6 +10,6 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_PAYMENT_COD_TEXT_TITLE', '銀行振込または代金引がい');
-  define('MODULE_PAYMENT_COD_TEXT_DESCRIPTION', '銀行振込または代金引がい');
+  define('MODULE_PAYMENT_COD_TEXT_TITLE', '銀行振込または代金引換');
+  define('MODULE_PAYMENT_COD_TEXT_DESCRIPTION', '銀行振込または代金引換');
 ?>

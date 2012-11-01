@@ -238,11 +238,10 @@
 //------insert customer choosen option eof ----
     $products_ordered .= $order->products[$i]['qty'] . ' x ' . $order->products[$i]['name'] . ' (' . $order->products[$i]['model'] . ') = ' . $currencies->display_price($order->products[$i]['final_price'], $order->products[$i]['tax'], $order->products[$i]['qty']) . $products_ordered_attributes . "\n";
   }
-
+//customer name
+  $customer_name = $order->customer['lastname'] . ' ' . $order->customer['firstname'];
 // lets start with the email confirmation
-  $email_order = EMAIL_TEXT_GREETING . "\n" . 
-                 EMAIL_SEPARATOR . "\n" . 
-                 EMAIL_TEXT_ORDER_NUMBER . ' ' . $insert_id . "\n" .
+  $email_order = EMAIL_TEXT_ORDER_NUMBER . ' ' . $insert_id . "\n" .
                  EMAIL_TEXT_INVOICE_URL . ' ' . tep_href_link(FILENAME_ACCOUNT_HISTORY_INFO, 'order_id=' . $insert_id, 'SSL', false) . "\n" .
                  EMAIL_TEXT_DATE_ORDERED . ' ' . strftime(DATE_FORMAT_LONG) . "\n\n";
   if ($order->info['comments']) {
@@ -277,11 +276,22 @@
       $email_order .= $payment_class->email_footer . "\n\n";
     }
   }
+   $email_order_customer = sprintf(EMAIL_TEXT_GREETING, tep_output_string_protected($customer_name)) . "\n" . 
+                           EMAIL_SEPARATOR . "\n" . 
+                           $email_order ;
+   $email_order_owner =    EMAIL_TEXT_CUSTOMER_DETAILS. "\n" . 
+                           EMAIL_SEPARATOR . "\n".
+                           EMAIL_TEXT_CUSTOMER_NAME. ":" . $customer_name . "\n" . 
+                           EMAIL_TEXT_CUSTOMER_CONTACT. ":" .  $order->customer['telephone']. "\n" . 
+                           EMAIL_TEXT_CUSTOMER_EMAIL. ":" .  $order->customer['email_address']. "\n" . 
+                           EMAIL_SEPARATOR . "\n" . 
+                           $email_order ;
+                           
   //mail to customer
-  tep_mail($order->customer['firstname'] . ' ' . $order->customer['lastname'], $order->customer['email_address'], EMAIL_TEXT_SUBJECT, $email_order, STORE_NAME, SHOP_ORDER_EMAIL_ADRESS);
+  tep_mail($customer_name, $order->customer['email_address'], EMAIL_TEXT_SUBJECT, $email_order_customer, STORE_NAME, STORE_ORDER_EMAIL_ADRESS);
   
   //mail to shop
-  tep_mail(STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS, EMAIL_TEXT_SUBJECT, $email_order, STORE_NAME, SHOP_ORDER_EMAIL_ADRESS);
+  tep_mail(STORE_NAME, STORE_OWNER_EMAIL_ADDRESS, EMAIL_TEXT_SUBJECT, $email_order_owner, STORE_NAME, STORE_ORDER_EMAIL_ADRESS);
   
 // send emails to other people
   if (SEND_EXTRA_ORDER_EMAILS_TO != '') {

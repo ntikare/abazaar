@@ -1,20 +1,19 @@
 <?php
 /*
- $Id$
+  $Id$
 
- osCommerce, Open Source E-Commerce Solutions
- http://www.oscommerce.com
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
 
- Copyright (c) 2010 osCommerce
+  Copyright (c) 2010 osCommerce
 
- Released under the GNU General Public License
- */
+  Released under the GNU General Public License
+*/
 
-define('MODULE_BOXES_LINK_TITLE', 'Links');
-define('MODULE_BOXES_LINK_DESCRIPTION', 'Show links ');
-define('MODULE_BOXES_LINK_BOX_TITLE', 'Links');
-define('MODULE_BOXES_LINK_BOX_SHOP_INFO', 'Shop Information');
-define('MODULE_BOXES_LINK_BOX_FACEBOOK', 'Asian Bazaar Facebook');
-//define('MODULE_BOXES_LINK_BOX_SHIPPING', 'About Shipping');
-//define('MODULE_BOXES_LINK_BOX_CONTACT', 'Contact Us');
+  define('MODULE_BOXES_LINK_TITLE', 'リンク');
+  define('MODULE_BOXES_LINK_DESCRIPTION', 'リンク');
+  define('MODULE_BOXES_LINK_BOX_TITLE', 'リンク');
+  define('MODULE_BOXES_LINK_BOX_SHOP_INFO', '店舗情報');
+  define('MODULE_BOXES_LINK_BOX_FACEBOOK', 'Facebook ページはこちら');
+
 ?>

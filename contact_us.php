@@ -37,7 +37,7 @@
     }
 
     if ($error == false) {
-      tep_mail(STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS, EMAIL_SUBJECT, $enquiry, $name, $email_address);
+      tep_mail(STORE_NAME, STORE_INQUIRY_EMAIL_ADDRESS, EMAIL_SUBJECT, $enquiry, $name, $email_address);
 
       $actionRecorder->record();
 

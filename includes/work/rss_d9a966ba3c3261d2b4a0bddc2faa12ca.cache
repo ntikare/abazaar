@@ -1,160 +1,37 @@
-a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:24:"osCommerce Contributions";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2010 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:37:"Contribution support 1.0 for iOSC 5.x";s:4:"link";s:38:"http://addons.oscommerce.com/info/8578";s:11:"description";s:546:"Changes<br />
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:24:"osCommerce Contributions";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2010 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:45:"Multiple Sales Per Product for osCommerce 2.3";s:4:"link";s:38:"http://addons.oscommerce.com/info/8593";s:11:"description";s:4362:"Our store often sets up sale prices several months in advance due to the lead time for the magazines in which we advertise. Many times the same products are repeated from ad to ad but the sale price changes. Since osCommerce as written only allows one sale price per product but has the potential to set more than one since sale prices are in their own file linked to the products I decided to see about writing my own contribution to allow sales to be set in advance and activated automatically at the proper time.<br />
 <br />
-	Update for:<br />
-- ULTIMATE Seo Urls 5 - by FWR Media<br />
-  http://addons.oscommerce.com/info/6768<br />
+This contribution also allows you to create named sales. The names can be anything you like such as &quot;July Magazine Ad&quot; or &quot;April 15 Newspaper Ad&quot; or &quot;Summer Sale Flyer&quot; or whatever else you like. Each named sale will have its own beginning and ending dates which can overlap if you like. When you create a new sale for a product and associate it with an named sale the product sale will automatically take its beginning and ending dates from the named sale so you won't need to enter those again. On the catalog side specials.php the user will now be able to choose which sale items to view, whether all items on sale, items on sale that aren't associated with a named sale, or only items that are part of a specific named sale.<br />
 <br />
-a.   Added compatipility with the setting:<br />
-  'Force a redirect to www.mysite.com/ when www.mysite.com/index.php' set to 'true'<br />
-b. Added Troubleshooting (Link to 'classic site' in mobile_header and mobile_footer):<br />
+I�ve modified the stock osCommerce specials maintenance enough to allow for the new features and added some basic error checking but focused my attention on writing a new sale price entry utility that focuses on products. In that utility only those sales for the focal product are listed. You can choose different products using either an advanced search or a drop down list of all products. One button click will return you to category/product maintenance with the current focal product selected. I've also added a button in the product information info box of categories.php to take you directly to sale maintenance for that product. This could make life easier since the osCommerce specials maintenance provides no way to search for the sale information for a specific product.<br />
 <br />
-  	Added:<br />
-- Specials &amp; Products_new sort category &amp; sub-category dropdown menu<br />
-  http://addons.oscommerce.com/info/5785<br />
+This contribution also includes a file that allows you to set sale prices for multiple products at one time. Prices may be set as a dollar amount, dollar reduction or a percentage reduction. Search terms for the applicable products are entered with the sale information. You will then be presented with a list of matching products and the resulting sale prices. Uncheck the boxes for any matching items that aren't supposed to be put on sale and confirm to set all checked matching items on sale at one time. In this version, items where the sale price is more than the warning percentage (defined in admin configuration) off of the regular price will not be automatically checked. In other words, if the warning percentage is left at the default of 50% then sale prices found to be more than 50% off of the regular price will not be checked automatically. You still have the option of checking them manually before clicking the confirm button to set the sale prices.<br />
 <br />
-Full Package<br />";s:7:"pubDate";s:31:"Fri, 19 Oct 2012 08:23:05 -0400";}i:1;a:4:{s:5:"title";s:23:"Cleared Checkout Layout";s:4:"link";s:38:"http://addons.oscommerce.com/info/8582";s:11:"description";s:1190:"In dieser Contribution wurde nur das Layout der Checkout-Prozedur modernisiert und vereinfacht. <br />
-An der Funktionalit&auml;t wurden keine &Auml;nderungen vorgenommen.<br />
+There is a configuration variable that determines whether you are allowed to create unending sale prices. This will appear under My Store in Configuration. If set to true then the expiration date for the sale can be left blank to create sale prices that never expire. If set to false a valid expiration date will be required in order to create a new sale price or named sale. Note that this only applies when you create or edit a sale, it does NOT have any effect on sale prices that are already stored in the database. There is also a configuration that sets up a warning level that requires confirmation if sale prices are set lower than a certain percentage of the regular price and adds the capability to display the sale expiration date and time. Expiration display can be changed in admin and display of date and time is set set separately.  The expiration time won't be displayed unless the date is also displayed. Display of expiration time is available since this contribution allows setting the time of expiration for sale prices. For those that use the capability to set expiration time as well as date the expiration time should probably be displayed. Those that simply use the default expiration time of the end of the day don't need to display the expiration time.<br />";s:7:"pubDate";s:31:"Wed, 31 Oct 2012 20:05:57 -0400";}i:1;a:4:{s:5:"title";s:33:"remove unused images for OSC2.3.x";s:4:"link";s:38:"http://addons.oscommerce.com/info/8157";s:11:"description";s:111:"New version with improved performance and check in the product_images and default multiple images for OSC 2.3.3";s:7:"pubDate";s:31:"Wed, 31 Oct 2012 15:06:58 -0400";}i:2;a:4:{s:5:"title";s:75:"Subcategories only with Manufactures and Categories filter in listing style";s:4:"link";s:38:"http://addons.oscommerce.com/info/8592";s:11:"description";s:410:"Subcategories only with Manufactures and Categories filter in listing style<br />
 <br />
-Der Checkout-Bar wurde von unten nach oben verlegt und mit Zahlen versehen.<br />
-In der checkout-confirmation wurde die Anordnung der einzelnen Punkte wie Rechnungsadresse, Versandanschrift, etc nach unten verlegt.<br />
-In der checkout-confirmation wurde die Anzeige der einzelnen Positionen ge&auml;ndert und mit dem Produktbild versehen.<br />
-Bitte beachten Sie die beigef&uuml;gten Bilder.<br />
+What is does?<br />
 <br />
-----------------------------------------------<br />
-In this contribution the layout of the checkout-procedure has been updated and cleared.<br />
-Functions had not been changed.<br />
+1. change dropdown categories &amp; manufactures filter in index.php page to listing style on your side box.<br />
 <br />
-The position of the checkout bar moved from bottom to the top of the page and numbers have been added to it.<br />
-At the checkout-confirmation page the arrangement of shipping, payment, etc was shifted to the bottom.<br />
-At the checkout-confirmation page the layout of the product list was changed and a product image was added to each item.<br />
-Please have a look at the attached screenshots.<br />";s:7:"pubDate";s:31:"Thu, 18 Oct 2012 09:24:49 -0400";}i:2;a:4:{s:5:"title";s:29:"Paiment ATOS/SIPS RETOUR AUTO";s:4:"link";s:38:"http://addons.oscommerce.com/info/8253";s:11:"description";s:471:"Cette contribution permet aux clients de payer par carte bancaire, la solution ATOS est un TPE propos&eacute; par un grand nombre de banques (banque populaire, soci&eacute;t&eacute; g&eacute;n&eacute;rale, la poste, cr&eacute;dit agricole, bnp paribas, ...), cette version est sous licence GPL.<br />
+2. Categories box will only shows the current categories level, not the parents categories, which means shows subcategories only.<br />
 <br />
-Cette version de Atos avec un retour automatique &agrave; la boutique apr&egrave;s le traitement de la transaction.<br />
+ken0306<br />
+lifecorners.com";s:7:"pubDate";s:31:"Tue, 30 Oct 2012 15:31:47 -0400";}i:3;a:4:{s:5:"title";s:16:"Time Zone Offset";s:4:"link";s:38:"http://addons.oscommerce.com/info/8591";s:11:"description";s:752:"If your server is in a different time zone or country than you are selling in to and you would like to set the correct time zone on your server (requires PHP version 5.2+), edit the following two files:<br />
 <br />
-Cette version est compatible PHP5+";s:7:"pubDate";s:31:"Thu, 18 Oct 2012 05:25:57 -0400";}i:3;a:4:{s:5:"title";s:49:"Improved New Product Listings (osCommerce v2.3.3)";s:4:"link";s:38:"http://addons.oscommerce.com/info/8581";s:11:"description";s:867:"Mejora en Listado de Productos Nuevos  (osCommerce v2.3.3)<br />
-Improved New Product Listings (osCommerce v2.3.3)<br />
+admin/includes/configure.php<br />
+includes/configure.php<br />
 <br />
+Add in to them the following line:<br />
 <br />
-1: Realizar SIEMPRE un RESGUARDO de sus archivos.<br />
-   ALWAYS make a BACKUP of your files.<br />
+define('CFG_TIME_ZONE', 'Pacific/Auckland');<br />
 <br />
-2: Reemplazar el archivo new_products.php en (catalogincludesmodules)<br />
-   Replace file new_products.php in (catalogincludesmodules)<br />
+This is to set the time zone for New Zealand, just find your own time zone from this web site http://php.net/manual/en/timezones.php and apply the correct one for your location.<br />
 <br />
-3: Adicionar el contenido del archivo &quot;02_Adicion_Stylesheet.txt&quot; al final <br />
-   del archivo stylesheet.css<br />
-   Add the contents of the file &quot;02_Adicion_Stylesheet.txt&quot; end of file stylesheet.css<br />
+Once you have uploaded those two files after editing and you're done!<br />
 <br />
+The attached file only has these instructions in to, so there is no need to download.";s:7:"pubDate";s:31:"Mon, 29 Oct 2012 18:06:19 -0400";}i:4;a:4:{s:5:"title";s:29:"Purchase Order Payment Module";s:4:"link";s:38:"http://addons.oscommerce.com/info/8589";s:11:"description";s:511:"This is very simple to install and only requires upload of 2 files and no editing of any other files. The module will then appear in the admin panel as a payment module.<br />
 <br />
-Captura de Pantalla adjunta<br />
-Attached screenshot<br />
+Full install instructions included, install should take less than 2 minutes.<br />
 <br />
-Probado en Chrome y Firefox<br />
-Tested in Chrome and Firefox<br />
+This was based on the Purchase Order module that was included in version 2.2, I did not write it, so full credit to the OSC team.<br />
 <br />
-Cualquier comentario a: rembertus@gmail.com<br />
-Any comments to: rembertus@gmail.com";s:7:"pubDate";s:31:"Wed, 17 Oct 2012 19:40:13 -0400";}i:4;a:4:{s:5:"title";s:34:"Auto Update Currency Exchange Rate";s:4:"link";s:38:"http://addons.oscommerce.com/info/5685";s:11:"description";s:4623:"Hi all<br />
-<br />
-I've modified this contribution to do the following:<br />
-<br />
-- Integrate with the native Currency functionality of OSC (ie when you go to Admin-&gt;Localization-&gt;Currencies) it will update the currencies using the European Central bank rates<br />
-- Because it integrates with the native Currencies functionality, it will work with as many Currencies as you want. Just use the OSC's Localization-&gt;Currency functionality to add and manage currencies.<br />
-<br />
-- Will work with all stores, regardless of what the Default Currency is (ie the store default currency doesn't have to be EUR or GBP). It will auto detected the store's native currency and calculate the exchange rates correctly.<br />
-<br />
-- Will work with all currencies provided by EC Bank (EUR, GBP, USD, CAD, HKD, and many more ....; it won't work with currencies not listed by the EC Bank).<br />
-<br />
-<br />
-INSTALLATION INSTRUCTIONS:<br />
-<br />
-Step 1) Edit /admin/includes/functions/localization.php<br />
-<br />
-At the end of the document, paste the following code (before the &quot;?&gt;&quot; line):<br />
-<br />
-  function quote_ECBank_currency($to) {<br />
-	# Read currency exchanges rates<br />
-	$xmlcontents = file(&quot;http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml&quot;);<br />
-<br />
-	# $xld may be used in your output to inform you user or admin<br />
-	# Extract exchange rates<br />
-	foreach ($xmlcontents as $line) {<br />
-		ereg(&quot;currency='([[:alpha:]]+)'&quot;,$line,$gota);<br />
-		if (ereg(&quot;rate='([[:graph:]]+)'&quot;,$line,$gotb)) {<br />
-			$exchrate[$gota[1]] = $gotb[1];<br />
-		}<br />
-	}	<br />
-	$exchrate['EUR'] = 1; /* manually add 1 EUR = 1 EUR to the array (all Exch.Rates are from EUR to X because we're getting them from ECB*/<br />
-	<br />
-	if (!array_key_exists(DEFAULT_CURRENCY, $exchrate)) {<br />
-		return false; 	/* 	the Store Default currency must be present in the list because these exchange rates are based in 1EUR=xx <br />
-							Therefore we need to calculate the rate from EUR to the Default currency and then from the Default currency to the destination currency */<br />
-	}<br />
-<br />
-	if (!array_key_exists($to, $exchrate)) {<br />
-		return false;<br />
-	}	<br />
-	<br />
-	$DefaultCurr_to_EUR_Rate = round(1 / $exchrate[DEFAULT_CURRENCY], 8);<br />
-	$DefaultCurr_to_DestCurr = round($DefaultCurr_to_EUR_Rate * $exchrate[$to], 8);<br />
-<br />
-	if (is_numeric($DefaultCurr_to_DestCurr) &amp;&amp; $DefaultCurr_to_DestCurr &gt; 0) { 	/* 	make sure we got a valid number */<br />
-		return $DefaultCurr_to_DestCurr;<br />
-	} else {<br />
-		return false;<br />
-	}<br />
-  }<br />
-<br />
-Save the file.<br />
-<br />
-<br />
-Step 2: Edit admin/includes/application_top.php<br />
-<br />
-  Find the line that starts with &quot;define('CURRENCY_SERVER_PRIMARY', &quot; and replace the whole line with:<br />
-  define('CURRENCY_SERVER_PRIMARY', 'ECBank');<br />
-<br />
-Save the file.<br />
-<br />
-All done.<br />
-<br />
-<br />
-TESTING THE INSTALLATION:<br />
-<br />
-Now go to the Admin section, select Localization and then Currencies.<br />
-Click Update.<br />
-<br />
-You should see a message saying that all currencies were successfully updated via ECBank.<br />
-<br />
-If you see an error about updating via ECBank, see the troubleshooting bellow:<br />
-<br />
-<br />
-<br />
-TROUBLESHOOTING:<br />
-<br />
-1) If you see an error when testing it may be caused by 2 things:<br />
-<br />
-A) Your server is not being able to fetch the file from the EC bank.<br />
-B) There's a poorly written sanity check in the file admin/currencies.php that may cause these issues.<br />
-<br />
-To fix case B) do this:<br />
-Edit admin/currencies.php<br />
-   <br />
-Find the line that says &quot;if (tep_not_null($rate)) {&quot; and replace the whole line with:<br />
-  if (is_numeric($rate) &amp;&amp; $rate &gt; 0) {<br />
-<br />
-Save the file and test again.<br />
-<br />
-2) You may also want to adjust your Exchange Rate BACKUP server (in case the updating via the primary server - ECBank - fails).<br />
-In admin/includes/application_top.php<br />
-<br />
-  Find the line that looks like &quot;define('CURRENCY_SERVER_BACKUP', 'XXXX');&quot;<br />
-  replace 'XXXX' with 'oanda' or 'xe' depending on which server you want to use as backup server.<br />
-<br />
-<br />
-I hope you find the contribution useful. :)<br />
-<br />
-<br />
-As always, BACKUP ALL FILES before modifying them.<br />
-Contributions used at your own risk. ( I will not be responsible for any direct or indirect damage or loss derived of using this contribution. )<br />
-<br />
-Regards<br />
-Pedro<br />";s:7:"pubDate";s:31:"Wed, 17 Oct 2012 11:05:09 -0400";}}s:11:"items_count";i:5;}
+Previous upload has a fault with the zip file, so this is the same but with a working zip file.";s:7:"pubDate";s:31:"Sun, 28 Oct 2012 16:57:50 -0400";}}s:11:"items_count";i:5;}
