@@ -78,6 +78,7 @@
 
 <div class="contentContainer">
   <div class="contentText">
+  <span ><?php echo CONTACT_NOTICE; ?></span>
     <table border="0" width="100%" cellspacing="0" cellpadding="2">
       <tr>
         <td class="fieldKey"><?php echo ENTRY_NAME; ?></td>

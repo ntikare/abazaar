@@ -233,7 +233,7 @@ define('TEXT_INFORMATION', '<div><font color="DarkRed">If you live in<b>Shinagaw
     <tbody>
       <tr>
         <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">Frozen delivery charges</font></td>
-        <td>For delivery of frozen items 250 Yen is charged separately.</td>
+        <td>For delivery of frozen items 600 Yen is charged separately.</td>
       </tr>
       <tr>
         <td valign="top" bgcolor="#eeeeee"><font size="2" color="Black">Special discount</font></td>

@@ -14,6 +14,7 @@ define('HEADING_TITLE', 'お問い合わせ');
 define('NAVBAR_TITLE', 'お問い合わせ');
 define('TEXT_SUCCESS', 'あなたの照会は正常に店のオーナーに送信されました。');
 define('EMAIL_SUBJECT', 'Enquiry from ' . STORE_NAME);
+define('CONTACT_NOTICE', ' ');
 
 define('ENTRY_NAME', 'お名前:');
 define('ENTRY_EMAIL', 'E-Mail アドレス:');
